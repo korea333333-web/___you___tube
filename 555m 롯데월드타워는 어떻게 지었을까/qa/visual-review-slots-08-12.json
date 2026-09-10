@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-10T10:57:15.952Z",
+  "status": "completed",
+  "slotRange": [
+    8,
+    12
+  ],
+  "method": "각 실제 다운로드 MP4에서 scripts/create-flow-contact-sheets.mjs로 첫 프레임, 25%, 50%, 75%, 종료 직전의 5프레임 접촉시트를 만들고 실제 이미지를 열어 육안 검토했다. scenes.md의 해당 내레이션 및 큐의 실제 프롬프트와 대조했다.",
+  "sampleTimesSeconds": [
+    0,
+    2.5,
+    5,
+    7.5,
+    9.9
+  ],
+  "sampleImageSize": {
+    "width": 384,
+    "height": 216
+  },
+  "overallConclusion": "표본에서 심각한 형태 오류나 기초 공사 설명과 명백히 충돌하는 화면을 발견하지 못했다. 8~12번 모두 해당 비유·대표 재현 장면으로 사용 가능하다.",
+  "limitations": [
+    "10초당 정지 프레임 5개만 검토했으며 전체 영상을 연속 재생한 검토가 아니다.",
+    "표본 사이의 깜빡임, 순간 변형, 급격한 컷, 유체 움직임 이상은 배제할 수 없다.",
+    "표본의 384×216 해상도 때문에 작은 상세 오류는 보이지 않을 수 있다.",
+    "실제 롯데월드타워의 구조·수량·치수·현장 배치 고증을 영상 자체로 검증하지 않았다.",
+    "원본 오디오와 최종 여성 내레이션의 동기화는 이 시각 검토 범위에 포함하지 않았다."
+  ],
+  "globalObservations": [
+    "표본 우측 아래에 작은 반짝임 표식이 반복해서 보인다. 본 작업에서 원본 영상이나 표식을 수정하지 않았다."
+  ],
+  "reviews": [
+    {
+      "outputSlot": 8,
+      "sceneNumber": 8,
+      "jobId": "196b24d5-140a-4004-8742-ab184a320b54",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "가느다란 수직 막대가 넓고 낮은 받침에 고정된 회색 탁상 모형이다. 다섯 표본에서 막대가 똑바로 유지되고 카메라가 받침 접합부로 가까워진다.",
+      "issues": [],
+      "editorialNote": "대본의 막대 비유에 적합하다. 실제 롯데월드타워 기초 구조나 비율을 보여주는 도면으로 설명하지 않는다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-08\\shot-08-196b24d5-140a-4004-8742-ab184a320b54.mp4",
+      "sourceBytes": 1393741,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-08\\contact-sheet-196b24d5-140a-4004-8742-ab184a320b54.jpg"
+    },
+    {
+      "outputSlot": 9,
+      "sceneNumber": 9,
+      "jobId": "3c029f79-652f-4c82-b531-32e7baa7d590",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "암석과 쇄석 바닥에서 거친 콘크리트 말뚝 머리와 수직 철근 몇 개를 보여준다. 표본에서 굵은 말뚝과 주변 철근의 형태가 대체로 일관된다.",
+      "issues": [],
+      "editorialNote": "기초 말뚝의 대표 재현으로 사용 가능하다. 화면만으로 실제 108개 수량, 간격, 직경, 시공 상세가 검증되는 것은 아니다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-09\\shot-09-3c029f79-652f-4c82-b531-32e7baa7d590.mp4",
+      "sourceBytes": 11644136,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-09\\contact-sheet-3c029f79-652f-4c82-b531-32e7baa7d590.jpg"
+    },
+    {
+      "outputSlot": 10,
+      "sceneNumber": 10,
+      "jobId": "4daab625-e2a0-49ed-9a17-85f9ee344a22",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "어두운 탁상 위 두꺼운 콘크리트 직육면체 모형을 가까이 보여준다. 표본에서 블록 면과 모서리는 크게 변형되지 않고 단순한 두께 비유로 읽힌다.",
+      "issues": [],
+      "editorialNote": "대본의 두꺼운 기초 설명에 적합한 모형 장면이다. 실제 6.5m 치수나 설계 비율을 이 화면이 실증하는 것은 아니다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-10\\shot-10-4daab625-e2a0-49ed-9a17-85f9ee344a22.mp4",
+      "sourceBytes": 1881091,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-10\\contact-sheet-4daab625-e2a0-49ed-9a17-85f9ee344a22.jpg"
+    },
+    {
+      "outputSlot": 11,
+      "sceneNumber": 11,
+      "jobId": "c049485e-eb3d-43e1-80b6-761ff4ee4018",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "고정된 호스에서 한 지점으로 회색 콘크리트가 흘러 철근 격자 주변에 쌓이는 구도다. 표본에서 호스 위치와 철근 격자가 유지되고 콘크리트 덩어리가 점차 넓어진다.",
+      "issues": [],
+      "editorialNote": "연속 타설 과정을 설명하는 대표 재현으로 사용 가능하다. 다섯 정지 프레임은 32시간 실제 연속 시공의 증거가 아니며, 유체 움직임의 자연스러움은 전체 재생 검토가 필요하다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-11\\shot-11-c049485e-eb3d-43e1-80b6-761ff4ee4018.mp4",
+      "sourceBytes": 4606164,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-11\\contact-sheet-c049485e-eb3d-43e1-80b6-761ff4ee4018.jpg"
+    },
+    {
+      "outputSlot": 12,
+      "sceneNumber": 12,
+      "jobId": "a5e8c090-12bd-4b1c-8b71-59ed160e42c2",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "흐린 하늘 아래 넓고 평평한 콘크리트 표면을 낮은 구도로 보여준다. 다섯 표본에서 완공 타워나 지하 단면 같은 부적절한 합성은 보이지 않고, 표면 질감과 낮은 수평선이 유지된다.",
+      "issues": [],
+      "editorialNote": "골조가 올라가기 전 기초 표면의 대표 재현으로 사용 가능하다. 실제 현장의 경계·배치·특정 날짜를 확인하는 영상은 아니다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-12\\shot-12-a5e8c090-12bd-4b1c-8b71-59ed160e42c2.mp4",
+      "sourceBytes": 2712419,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-12\\contact-sheet-a5e8c090-12bd-4b1c-8b71-59ed160e42c2.jpg"
+    }
+  ]
+}

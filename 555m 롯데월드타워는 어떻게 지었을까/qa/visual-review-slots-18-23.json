@@ -1,0 +1,130 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-10T11:10:41.488Z",
+  "status": "completed",
+  "slotRange": [
+    18,
+    23
+  ],
+  "method": "완료된 각 Job의 실제 다운로드 MP4에서 5개 프레임 접촉시트를 생성한 뒤 실제 이미지를 열어 장면 설명·내레이션·영어 프롬프트와 대조했다. 20번 큰 외형은 로컬 KPF 비교 사진과 육안 비교했다.",
+  "sampleTimesSeconds": [
+    0,
+    2.5,
+    5,
+    7.5,
+    9.9
+  ],
+  "sampleImageSize": {
+    "width": 384,
+    "height": 216
+  },
+  "overallConclusion": "18~23번 모두 확인한 프레임 표본 범위에서 설명용 AI 재현·비유 장면으로 사용 가능하다. 즉시 제외가 필요한 심각한 형태 오류는 표본에서 발견하지 못했다. 18번 판의 글자 모양 무늬, 20번 주변 배치 미검증, 21번 모형 받침의 차이는 아래 제약대로 다룬다.",
+  "limitations": [
+    "각 10초 영상에서 5개의 정지 표본만 실제 열람했다. 연속 재생 검토를 수행하지 않았으므로 표본 사이 깜빡임·형태 변형·컷 점프·운동 물리 오류를 배제할 수 없다.",
+    "384×216 프레임 표본이므로 작은 부재·볼트·문자와 미세한 오류 판단에는 한계가 있다.",
+    "AI 설명용 재현·비유 장면이며 실제 과거 공사 기록 영상이나 검증된 구조 설계도가 아니다.",
+    "음성·내레이션의 품질 및 영상과 발화의 시간 정합은 이번 검토에 포함하지 않았다.",
+    "KPF 사진은 큰 외관 비교에만 사용했고 본편 영상에 삽입하지 않았다."
+  ],
+  "globalObservations": [
+    "표본 우측 하단의 작은 반짝임 모양 표식이 보인다. 원본이나 표식에 대한 수정은 수행하지 않았다.",
+    "8번과 21번 받침이 다른 모형은 같은 원리를 설명하는 별도 비유 샷으로 취급한다. 하나의 실제 물체가 이어지는 연속 촬영으로 설명하지 않는다."
+  ],
+  "reviews": [
+    {
+      "outputSlot": 18,
+      "sceneNumber": 18,
+      "jobId": "573a55f2-e51c-4671-9345-7cfff49a8658",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "완성된 콘크리트 벽 위쪽의 철근 격자와 거푸집 일부를 보여준다. 다섯 표본에서 굵은 수평·수직 철근과 거푸집이 대체로 고정된 상태로 유지된다.",
+      "issues": [
+        "거푸집 판에 글자나 로고처럼 보이는 반복 무늬가 있다. 표본 해상도에서 특정 상표나 기술 수치는 판독하지 않았다."
+      ],
+      "editorialNote": "다음 높이의 철근·거푸집 준비 상태를 보여주는 대표 재현으로 사용 가능하다. 실제 배근도나 정확한 접합 상세의 증거로 사용하지 않는다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-18\\shot-18-573a55f2-e51c-4671-9345-7cfff49a8658.mp4",
+      "sourceBytes": 5688565,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-18\\contact-sheet-573a55f2-e51c-4671-9345-7cfff49a8658.jpg"
+    },
+    {
+      "outputSlot": 19,
+      "sceneNumber": 19,
+      "jobId": "f5463f82-a90b-43f6-a696-55ad0001215b",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "콘크리트 벽 옆 가이드와 지지부에 연결된 거푸집·작업 장치가 표본을 따라 조금씩 높아지는 것으로 보인다. 벽과 주변 구조는 유지되고 장치의 큰 틀도 일관된다.",
+      "issues": [],
+      "editorialNote": "작업 공간도 함께 상승한다는 설명용 대표 장면으로 사용 가능하다. 표본에서 허공 부양이나 한 층 순간이동은 보이지 않았지만, 가이드·잭의 실제 구동 방식이나 모든 순간의 물리적 연결을 검증한 것은 아니다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-19\\shot-19-f5463f82-a90b-43f6-a696-55ad0001215b.mp4",
+      "sourceBytes": 2476701,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-19\\contact-sheet-f5463f82-a90b-43f6-a696-55ad0001215b.jpg"
+    },
+    {
+      "outputSlot": 20,
+      "sceneNumber": 20,
+      "jobId": "4997d6b9-7f38-40e9-be35-163083314e0f",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "완공 타워를 고정된 원경으로 보여주며 표본에서 건물이 휘거나 눈에 띄게 흔들리는 모습은 없다. KPF 비교 사진의 위로 가늘어지는 큰 윤곽과 상부가 갈라진 마감 특징은 대체로 대응한다.",
+      "issues": [
+        "반복되는 외벽 패턴, 기단과 주변 도시 배치는 이 비교만으로 정확성을 확인하지 못했다."
+      ],
+      "editorialNote": "바람을 받지만 안정적으로 선 타워의 대표 재현으로 사용 가능하다. 실제 풍속·변형량이나 촬영 위치·주변 배치의 증거로 사용하지 않는다.",
+      "referenceComparison": {
+        "sourcePage": "https://www.kpf.com/project/lotte-world-tower",
+        "localImage": "qa/kpf-exterior-inspection-reference.webp",
+        "scope": "큰 상부 실루엣과 마감 형태의 육안 비교만 수행. 참조 이미지는 본편에 사용하지 않음."
+      },
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-20\\shot-20-4997d6b9-7f38-40e9-be35-163083314e0f.mp4",
+      "sourceBytes": 1828375,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-20\\contact-sheet-4997d6b9-7f38-40e9-be35-163083314e0f.jpg"
+    },
+    {
+      "outputSlot": 21,
+      "sceneNumber": 21,
+      "jobId": "c581ec7f-0463-4b48-b319-0632844376d5",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "높은 중앙 막대와 주변 수직 지지대가 가로·대각 부재로 연결된 탁상 모형이다. 짧은 카메라 이동에 따라 보이는 면이 바뀌며 표본에서 큰 부재의 끊김이나 변형은 보이지 않는다.",
+      "issues": [
+        "8번 모형의 직사각 받침과 달리 원형 받침을 사용한다. 동일한 물체가 화면 사이에서 직접 변형된 것으로 설명하기보다 같은 원리의 별도 연결 모형으로 다루는 편이 적절하다."
+      ],
+      "editorialNote": "힘을 여러 지지점으로 나누는 연결 비유에 사용 가능하다. 실제 메가컬럼 수량·배치나 아웃리거 설계로 해석하지 않는다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-21\\shot-21-c581ec7f-0463-4b48-b319-0632844376d5.mp4",
+      "sourceBytes": 1991014,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-21\\contact-sheet-c581ec7f-0463-4b48-b319-0632844376d5.jpg"
+    },
+    {
+      "outputSlot": 22,
+      "sceneNumber": 22,
+      "jobId": "ffaee258-991c-4ba9-928c-10d613ec8466",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "콘크리트 벽과 대형 기둥이 있는 미완성 실내를 옆으로 이동하며 보여준다. 표본에서 기둥·벽이 바닥 및 천장과 연결되고 큰 부재가 분리되거나 떠 있는 모습은 보이지 않는다.",
+      "issues": [],
+      "editorialNote": "두꺼운 중심부 벽과 큰 기둥의 역할을 설명하는 개념 장면으로 사용 가능하다. 실제 평면 배치, 코어의 정확한 위치, 8개 기둥 전체 수량을 이 영상으로 검증하거나 재현했다고 주장하지 않는다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-22\\shot-22-ffaee258-991c-4ba9-928c-10d613ec8466.mp4",
+      "sourceBytes": 1909583,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-22\\contact-sheet-ffaee258-991c-4ba9-928c-10d613ec8466.jpg"
+    },
+    {
+      "outputSlot": 23,
+      "sceneNumber": 23,
+      "jobId": "0f0b3f97-d3eb-4afb-b076-a2827afc7709",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "미완성 고층 구조 내부의 대각 철골과 수평 부재가 만나는 볼트 연결부로 카메라가 가까워진다. 다섯 표본에서 대각 부재와 접합판의 큰 형태가 유지되고 부재가 떠 있거나 분리된 모습은 보이지 않는다.",
+      "issues": [],
+      "editorialNote": "중심과 바깥 구조가 연결되어 힘을 나누는 설명의 일반 철골 접합 비유로 사용 가능하다. 실제 롯데월드타워 아웃리거·벨트트러스 접합 상세, 볼트 규격·수량·내력의 증거로 사용하지 않는다.",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-23\\shot-23-0f0b3f97-d3eb-4afb-b076-a2827afc7709.mp4",
+      "sourceBytes": 2554107,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-23\\contact-sheet-0f0b3f97-d3eb-4afb-b076-a2827afc7709.jpg"
+    }
+  ]
+}

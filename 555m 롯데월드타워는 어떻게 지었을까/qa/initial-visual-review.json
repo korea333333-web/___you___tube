@@ -1,0 +1,20 @@
+{
+  "reviewedAt": "2026-09-10T10:39:32.293Z",
+  "reviewMethod": "Five actual sampled frames at beginning, quarter, middle, three-quarter and near-end; technical media validation.",
+  "reviews": [
+    {
+      "outputSlot": 1,
+      "sceneNumber": 2,
+      "jobId": "14826cca-e4b1-47c6-ab4b-05b42872b2f8",
+      "usable": true,
+      "note": "Construction crane illustration; internal dissolve in source. AI reconstruction, not archival footage."
+    },
+    {
+      "outputSlot": 2,
+      "sceneNumber": 1,
+      "jobId": "abcd720b-483b-4ed8-9378-6eaef98270f6",
+      "usable": true,
+      "note": "Tower-top construction aerial; consistent slow camera approach and no obvious severe malformed geometry at sampled frames. Architectural details remain illustrative, not surveyed or archival."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+# Changelog
+
+All notable changes to Google Flow MCP are documented here.
+
+## [0.2.3] - 2026-07-19
+
+### Fixed
+
+- Every generation now persists Flow Agent's language-independent `AUTO_APPROVE` setting inside the isolated managed Chromium profile
+- The MCP saves the preference, reopens Agent settings, and verifies that **Never ask before generating** actually persisted before submission
+- If Flow still exposes an approval card, the MCP selects the final persistent **Approve and don't ask again** action instead of the one-time approval
+- Individual asset `/edit/...` URLs are canonicalized back to their project workspace before generation so Agent settings are always reachable
+- Agents are explicitly prohibited from handling Flow approval UI or asking users to interact with the hidden managed browser
+
+## [0.2.2] - 2026-07-19
+
+### Fixed
+
+- Video readiness now verifies the exact generated media URL instead of requiring hidden Flow `<video>` elements to preload metadata
+- Initial generation waits are bounded to 20 seconds; queued work returns a persistent `processing` job so later account operations are not blocked indefinitely
+- Status polling finalizes downloads already authorized by the original generation request
+- Original media downloads use the tracked asset URL directly, eliminating gallery visibility, ordering, localization, and context-menu failure modes
+- Multiple MCP processes now reuse a shared per-account Chromium CDP session and coordinate account operations across Antigravity chats
+- `flow_begin_account_connection` refuses unnecessary onboarding when a verified default account already exists
+- Failed new account connections remove their temporary account record instead of accumulating misleading entries
+
+### Agent contract
+
+- A `processing` generation must be polled with the same job ID and must never be resubmitted merely because Flow queued it
+- `flow_list_accounts` exposes explicit `readyForGeneration` and `connectionRequired` booleans
+
+## [0.2.1] - 2026-07-19
+
+### Fixed
+
+- Replaced positional “last gallery item” downloads with exact per-job asset identity tracking
+- Generation now snapshots pre-existing media, records only newly created asset identities, and carries them through status, upscale, and download operations
+- Multi-output jobs wait for the requested number of new, ready assets instead of accepting the first count increase
+- Missing or ambiguous asset identities fail closed instead of downloading an unrelated older asset
+- Added regression tests for reordered galleries, durable URL matching, and ambiguous identity rejection
+
+## [0.2.0] - 2026-07-19
+
+### Added
+
+- Supported `npm run setup:antigravity` installer using Antigravity's official global stdio MCP config structure
+- Hard installer contract in `AGENTS.md` and a complete numbered first-run guide in `INSTALL.md`
+- `flow_help` for natural-language capability explanations and concrete request examples
+- `flow_begin_account_connection`, which returns extension instructions immediately and forces the agent to stop for user action
+- `flow_complete_account_connection`, which runs only after the extension session has been sent
+- Bridge arming so the extension targets the MCP instance that requested account connection when multiple local clients are running
+- Clean-install tests for config preservation, absolute stdio paths, scratch-directory refusal, and untouched browser configuration
+
+### Changed
+
+- Removed the blocking `flow_connect_account` tool to prevent agents from hiding a required extension click inside a five-minute tool call
+- Flow Login Bridge now tells the user to return to the agent after the session is sent, before the temporary account chooser step
+- Installer validation refuses modified tracked source and disposable Antigravity scratch clones
+- Installer runs `npm ci`, all 25 tests, package dry-run validation, and normal system-browser detection before changing MCP config
+
+### Installer rules
+
+- No source patches during installation
+- No `npx playwright install chromium`
+- No generated MCP schema files
+- No speculative browser flags or remote-debugging setup
+- No replacement of unrelated MCP config entries
+
+## [0.1.1] - 2026-07-19
+
+### Fixed
+
+- Added MCP initialization instructions that require agents to use `flow_*` tools exclusively and prohibit generic browser/computer-use fallback on the Flow website
+- Distinguished an authenticated Google identity from an available Flow generation workspace
+- Detects the public/marketing Flow page structurally and fails with `flow_access_unavailable` before searching, scrolling, or configuring generation controls
+- Tracks `unverified`, `connected`, `needs_reconnect`, and `access_unavailable` account states
+- Makes the most recently verified connection the default and prevents stale or unverified profiles from starting generation
+- Allows account IDs to be omitted so agents use the verified default instead of guessing
+- Added explicit agent next-action guidance to account and capability responses
+- Added regression coverage for landing-page classification, verified defaults, unavailable accounts, MCP server instructions, and generation tool schemas
+- Documented a stable Antigravity installation path so MCP entrypoints are not lost when its scratch directory is cleaned
+
+## [0.1.0] - 2026-07-19
+
+### Added
+
+- Local stdio MCP server with nine Flow tools
+- Flow Login Bridge extension for reusing existing Chromium Google accounts
+- Isolated persistent sessions and queues for multiple accounts
+- Live, language-independent model, ratio, output-count, duration, and asset-option discovery
+- Normalized IDs for Omni Flash, Veo, and Nano Banana model families
+- Credit-confirmation gates for generation and upscaling
+- Persistent generation jobs with status polling
+- Structural detection of preview, original, available upscale, and unavailable/upgrade-only choices
+- Browser download capture with `.flow.json` manifests, SHA-256, and optional FFprobe metadata
+- Codex, Antigravity, generic MCP, and Remotion documentation
+- Windows/Linux CI across Node.js 20 and 24
+
+### Live validation
+
+- Existing-account connection from normal Chromium
+- Spanish-language Flow capability discovery
+- Real Omni Flash 16:9 video generation
+- Persistent queue polling and original-resolution video download
+- H.264, duration, and resolution validation through FFprobe
+
+### Known limitations
+
+- Google Flow UI automation can require selector updates when the website changes
+- Browser extension installation currently uses developer-mode “Load unpacked” setup
+- Live image, reference-file, upscale-download, macOS/Linux browser, and multi-account concurrency paths need broader opt-in validation
+
+[0.1.0]: https://github.com/retrolyze52/google-flow-mcp/releases/tag/v0.1.0
+[0.1.1]: https://github.com/retrolyze52/google-flow-mcp/releases/tag/v0.1.1
+[0.2.0]: https://github.com/retrolyze52/google-flow-mcp/releases/tag/v0.2.0
+[0.2.1]: https://github.com/retrolyze52/google-flow-mcp/releases/tag/v0.2.1
+[0.2.2]: https://github.com/retrolyze52/google-flow-mcp/releases/tag/v0.2.2
+[0.2.3]: https://github.com/retrolyze52/google-flow-mcp/releases/tag/v0.2.3

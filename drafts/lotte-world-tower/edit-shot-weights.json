@@ -1,0 +1,1946 @@
+{
+  "version": 1,
+  "fps": 30,
+  "status": "advisory_edit_plan_sources_not_modified",
+  "createdDate": "2026-09-10",
+  "inputFiles": {
+    "scenes": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scenes.json",
+    "audioMetadata": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\narration-groups.json"
+  },
+  "inputSha256": {
+    "scenes": "bdc08436b80c97d8b9a72ce5bb963d4ae95f2c9abdb33b23815eca6260f1ba7f",
+    "audioMetadata": "bc567f85c98fad88f78cf5b15c47e96bed6d193745c8dbde23a3d126022c59c1"
+  },
+  "ordering": "sceneNumber ascending, not output folder or generation completion order; 1 maps to scene-02 and 2 maps to scene-01",
+  "method": {
+    "rawWeight": "Unicode Letter/Number count + 2*comma + 4*terminal punctuation + 4*ellipsis",
+    "allocation": "Capped proportional redistribution to 90..300 frames; dynamic-programming cut selection balances deviation from text targets and detected silence; exact frame sum preserved",
+    "silenceFilter": "silencedetect=noise=-40dB:d=0.20",
+    "silenceDetectionPerformedOnExistingWavs": true,
+    "transcriptionPerformed": false,
+    "forcedWordAlignmentPerformed": false,
+    "weightEqualsRecommendedFrames": true,
+    "groupFrames": "ceil(audioDurationSeconds * 30 - 1e-8)",
+    "automaticAudioSpeedChange": false,
+    "automaticClipLoop": false
+  },
+  "paddingPolicy": "To preserve group boundaries, pad each group audio tail by paddingToFrameSeconds in final assembly only; source WAVs are unchanged. If audio is concatenated without per-group padding, recompute video cut offsets accordingly.",
+  "limitations": [
+    "Character-weight estimates are not measured line timings.",
+    "Low-amplitude intervals do not establish which sentence was spoken.",
+    "Actual downloaded videos and action completion have not been inspected by this subtask.",
+    "SourceIn=0 is provisional; reject insufficient media rather than repeat or slow it."
+  ],
+  "totals": {
+    "sceneCount": 34,
+    "narrationLineCount": 56,
+    "audioDurationSeconds": 306.63474,
+    "videoFrames": 9203,
+    "videoDurationSeconds": 306.76666666666665,
+    "frameRoundingExtraSeconds": 0.13192666666662944,
+    "silenceAlignedInternalCuts": 15,
+    "totalInternalCuts": 26
+  },
+  "groups": [
+    {
+      "id": "group-01",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-01-heami-rate0.wav",
+      "audioDurationSeconds": 26.709478,
+      "targetFrames": 802,
+      "plannedVideoDurationSeconds": 26.733333333333334,
+      "paddingToFrameSeconds": 0.02385533333333356,
+      "actualAudioCumulativeStartSeconds": 0,
+      "videoTimelineStartFrame": 0,
+      "semanticBridgeNote": "상부 전경→크레인 클로즈업은 같은 질문에 함께 쓰고, 마지막 장비 설명의 끝이 기초 전경으로 조금 이어져도 음성은 자르지 않는다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 4.064308,
+          "endSeconds": 4.988163
+        },
+        {
+          "startSeconds": 8.097506,
+          "endSeconds": 8.982766
+        },
+        {
+          "startSeconds": 9.774649,
+          "endSeconds": 10.669433
+        },
+        {
+          "startSeconds": 12.014059,
+          "endSeconds": 12.878821
+        },
+        {
+          "startSeconds": 19.396054,
+          "endSeconds": 20.352336
+        },
+        {
+          "startSeconds": 21.543401,
+          "endSeconds": 22.088027
+        },
+        {
+          "startSeconds": 25.936871,
+          "endSeconds": 26.709478
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 1,
+          "title": "꼭대기에 남은 크레인",
+          "outputSlot": 2,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-02",
+          "narrationGroupId": "group-01",
+          "narrationLineIds": [
+            "group-01-line-01",
+            "group-01-line-02"
+          ],
+          "narration": "오백오십오 미터짜리 건물을 다 지었다고 상상해 보세요.\n그런데 꼭대기에 거대한 크레인이 남아 있습니다.",
+          "weight": 300,
+          "rawNarrationWeight": 51,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 9.081222519999999,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 9.081222519999999,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 0,
+          "localEndFrame": 300,
+          "localStartSeconds": 0,
+          "localEndSeconds": 10,
+          "timelineStartFrame": 0,
+          "timelineEndFrame": 300,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 9.774649,
+              "endSeconds": 10.669433
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            1,
+            2
+          ]
+        },
+        {
+          "sceneNumber": 2,
+          "title": "질문의 대상에 가까이",
+          "outputSlot": 1,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-01",
+          "narrationGroupId": "group-01",
+          "narrationLineIds": [
+            "group-01-line-03",
+            "group-01-line-04"
+          ],
+          "narration": "저 크레인은… 어떻게 내려올까요?\n롯데월드타워를 만드는 일은 마지막 장비를 내려보내는 방법까지 준비해야 하는 작업이었습니다.",
+          "weight": 300,
+          "rawNarrationWeight": 65,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 11.574107133333333,
+          "estimatedNarrationRange": {
+            "startSeconds": 9.081222519999999,
+            "endSeconds": 20.655329653333332,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 300,
+          "localEndFrame": 600,
+          "localStartSeconds": 10,
+          "localEndSeconds": 20,
+          "timelineStartFrame": 300,
+          "timelineEndFrame": 600,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 19.396054,
+              "endSeconds": 20.352336
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            2
+          ]
+        },
+        {
+          "sceneNumber": 3,
+          "title": "시간을 거슬러 기초 현장으로",
+          "outputSlot": 3,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-03",
+          "narrationGroupId": "group-01",
+          "narrationLineIds": [
+            "group-01-line-05"
+          ],
+          "narration": "그 답을 찾으려면, 먼저 건물이 올라가기 전 땅속부터 살펴봐야 합니다.",
+          "weight": 202,
+          "rawNarrationWeight": 34,
+          "recommendedFrames": 202,
+          "recommendedDurationSeconds": 6.733333333333333,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 6.733333333333333,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 6.054148346666667,
+          "estimatedNarrationRange": {
+            "startSeconds": 20.655329653333332,
+            "endSeconds": 26.709477999999997,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 202,
+          "localStartFrame": 600,
+          "localEndFrame": 802,
+          "localStartSeconds": 20,
+          "localEndSeconds": 26.733333333333334,
+          "timelineStartFrame": 600,
+          "timelineEndFrame": 802,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.02385533333333356
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-02",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-02-heami-rate0.wav",
+      "audioDurationSeconds": 32.718776,
+      "targetFrames": 982,
+      "plannedVideoDurationSeconds": 32.733333333333334,
+      "paddingToFrameSeconds": 0.014557333333335976,
+      "actualAudioCumulativeStartSeconds": 26.709478,
+      "videoTimelineStartFrame": 802,
+      "semanticBridgeNote": "완공 전경·첨탑은 높이/현재 순위 설명을 공유한다. 공사 기간 설명 후반과 개장 구분 초반은 공사 외곽→완공 하부로 자연스럽게 넘기되 날짜 발화와 컷의 정확 일치를 주장하지 않는다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 2.133696,
+          "endSeconds": 3.004082
+        },
+        {
+          "startSeconds": 4.466032,
+          "endSeconds": 5.001497
+        },
+        {
+          "startSeconds": 7.194422,
+          "endSeconds": 8.239955
+        },
+        {
+          "startSeconds": 10.962449,
+          "endSeconds": 11.82907
+        },
+        {
+          "startSeconds": 17.770385,
+          "endSeconds": 18.688707
+        },
+        {
+          "startSeconds": 20.446712,
+          "endSeconds": 21.320998
+        },
+        {
+          "startSeconds": 24.588844,
+          "endSeconds": 25.533469
+        },
+        {
+          "startSeconds": 28.373333,
+          "endSeconds": 28.945488
+        },
+        {
+          "startSeconds": 31.951791,
+          "endSeconds": 32.718776
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 4,
+          "title": "현재의 555m 타워",
+          "outputSlot": 4,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-04",
+          "narrationGroupId": "group-02",
+          "narrationLineIds": [
+            "group-02-line-01"
+          ],
+          "narration": "서울 잠실의 롯데월드타워. 지상 백이십삼 층, 높이 약 오백오십오 미터입니다.",
+          "weight": 247,
+          "rawNarrationWeight": 41,
+          "recommendedFrames": 247,
+          "recommendedDurationSeconds": 8.233333333333333,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 8.233333333333333,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 7.79924311627907,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 7.79924311627907,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 254.2,
+          "localStartFrame": 0,
+          "localEndFrame": 247,
+          "localStartSeconds": 0,
+          "localEndSeconds": 8.233333333333333,
+          "timelineStartFrame": 802,
+          "timelineEndFrame": 1049,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 7.194422,
+              "endSeconds": 8.239955
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            4,
+            5
+          ]
+        },
+        {
+          "sceneNumber": 5,
+          "title": "타워의 꼭대기",
+          "outputSlot": 5,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-05",
+          "narrationGroupId": "group-02",
+          "narrationLineIds": [
+            "group-02-line-02"
+          ],
+          "narration": "현재 우리나라에서 가장 높은 건물입니다.",
+          "weight": 137,
+          "rawNarrationWeight": 21,
+          "recommendedFrames": 137,
+          "recommendedDurationSeconds": 4.566666666666666,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 4.566666666666666,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 3.9947342790697675,
+          "estimatedNarrationRange": {
+            "startSeconds": 7.79924311627907,
+            "endSeconds": 11.793977395348836,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 130.2,
+          "localStartFrame": 247,
+          "localEndFrame": 384,
+          "localStartSeconds": 8.233333333333333,
+          "localEndSeconds": 12.8,
+          "timelineStartFrame": 1049,
+          "timelineEndFrame": 1186,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            5,
+            6
+          ]
+        },
+        {
+          "sceneNumber": 6,
+          "title": "공사 기간",
+          "outputSlot": 6,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-06",
+          "narrationGroupId": "group-02",
+          "narrationLineIds": [
+            "group-02-line-03",
+            "group-02-line-04"
+          ],
+          "narration": "롯데CM이 공개한 공사 기간은 이천십 년 십일 월부터 이천십칠 년 이 월까지.\n약 육 년 삼 개월입니다.",
+          "weight": 298,
+          "rawNarrationWeight": 48,
+          "recommendedFrames": 298,
+          "recommendedDurationSeconds": 9.933333333333334,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.933333333333334,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 9.130821209302326,
+          "estimatedNarrationRange": {
+            "startSeconds": 11.793977395348836,
+            "endSeconds": 20.924798604651162,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 297.6,
+          "localStartFrame": 384,
+          "localEndFrame": 682,
+          "localStartSeconds": 12.8,
+          "localEndSeconds": 22.733333333333334,
+          "timelineStartFrame": 1186,
+          "timelineEndFrame": 1484,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            6,
+            7
+          ]
+        },
+        {
+          "sceneNumber": 7,
+          "title": "공사 완료와 개장은 다른 시점",
+          "outputSlot": 7,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-07",
+          "narrationGroupId": "group-02",
+          "narrationLineIds": [
+            "group-02-line-05",
+            "group-02-line-06"
+          ],
+          "narration": "정식으로 문을 연 날은 그해 사 월 삼 일이었죠.\n공사를 마친 때와 개장한 때를 구분하면, 이 건물의 시간이 조금 더 정확하게 보입니다.",
+          "weight": 300,
+          "rawNarrationWeight": 62,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 11.793977395348836,
+          "estimatedNarrationRange": {
+            "startSeconds": 20.924798604651162,
+            "endSeconds": 32.718776,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 682,
+          "localEndFrame": 982,
+          "localStartSeconds": 22.733333333333334,
+          "localEndSeconds": 32.733333333333334,
+          "timelineStartFrame": 1484,
+          "timelineEndFrame": 1784,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.014557333333335976
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-03",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-03-heami-rate0.wav",
+      "audioDurationSeconds": 48.375465,
+      "targetFrames": 1452,
+      "plannedVideoDurationSeconds": 48.4,
+      "paddingToFrameSeconds": 0.024535000000000196,
+      "actualAudioCumulativeStartSeconds": 59.428253999999995,
+      "videoTimelineStartFrame": 1784,
+      "semanticBridgeNote": "막대 비유가 끝나기 전 말뚝 화면으로 바뀔 수 있다. 말뚝→두꺼운 받침→타설→완성된 기초는 모두 기초 이야기이므로 긴 비교·타설 설명을 인접 숏 위에 이어 읽는다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 2.166349,
+          "endSeconds": 2.732154
+        },
+        {
+          "startSeconds": 5.126757,
+          "endSeconds": 6.008844
+        },
+        {
+          "startSeconds": 8.58839,
+          "endSeconds": 9.46195
+        },
+        {
+          "startSeconds": 12.790522,
+          "endSeconds": 13.663447
+        },
+        {
+          "startSeconds": 19.342948,
+          "endSeconds": 20.268844
+        },
+        {
+          "startSeconds": 25.132063,
+          "endSeconds": 26.020544
+        },
+        {
+          "startSeconds": 30.677732,
+          "endSeconds": 31.549887
+        },
+        {
+          "startSeconds": 33.996916,
+          "endSeconds": 34.95805
+        },
+        {
+          "startSeconds": 37.039501,
+          "endSeconds": 37.605034
+        },
+        {
+          "startSeconds": 40.702766,
+          "endSeconds": 41.593152
+        },
+        {
+          "startSeconds": 47.616417,
+          "endSeconds": 48.375465
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 8,
+          "title": "막대의 발밑",
+          "outputSlot": 8,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-08",
+          "narrationGroupId": "group-03",
+          "narrationLineIds": [
+            "group-03-line-01",
+            "group-03-line-02",
+            "group-03-line-03"
+          ],
+          "narration": "여러분이 긴 막대를 세운다면, 먼저 아래쪽을 단단히 잡아야겠죠.\n초고층 건물도 시작은 발밑입니다.\n다만 실제 건물의 기초는 훨씬 복잡합니다.",
+          "weight": 283,
+          "rawNarrationWeight": 71,
+          "recommendedFrames": 283,
+          "recommendedDurationSeconds": 9.433333333333334,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.433333333333334,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 12.960973641509433,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 12.960973641509433,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 0,
+          "localEndFrame": 283,
+          "localStartSeconds": 0,
+          "localEndSeconds": 9.433333333333334,
+          "timelineStartFrame": 1784,
+          "timelineEndFrame": 2067,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 8.58839,
+              "endSeconds": 9.46195
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            8
+          ]
+        },
+        {
+          "sceneNumber": 9,
+          "title": "암반을 보강하는 말뚝",
+          "outputSlot": 9,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-09",
+          "narrationGroupId": "group-03",
+          "narrationLineIds": [
+            "group-03-line-04"
+          ],
+          "narration": "롯데월드타워는 암반을 보강하기 위해 백여덟 개의 콘크리트 말뚝을 시공했습니다.",
+          "weight": 300,
+          "rawNarrationWeight": 38,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 6.936859132075472,
+          "estimatedNarrationRange": {
+            "startSeconds": 12.960973641509433,
+            "endSeconds": 19.897832773584906,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 283.459459,
+          "localStartFrame": 283,
+          "localEndFrame": 583,
+          "localStartSeconds": 9.433333333333334,
+          "localEndSeconds": 19.433333333333334,
+          "timelineStartFrame": 2067,
+          "timelineEndFrame": 2367,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 19.342948,
+              "endSeconds": 20.268844
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            8,
+            9
+          ]
+        },
+        {
+          "sceneNumber": 10,
+          "title": "두꺼운 콘크리트 받침",
+          "outputSlot": 10,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-10",
+          "narrationGroupId": "group-03",
+          "narrationLineIds": [
+            "group-03-line-05",
+            "group-03-line-06"
+          ],
+          "narration": "그 위에는 두께 육 점 오 미터의 거대한 콘크리트 기초를 만들었습니다.\n사람 키를 이 미터로 잡아도 세 명을 포개 놓은 높이보다 두껍습니다.",
+          "weight": 300,
+          "rawNarrationWeight": 63,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 11.500582245283018,
+          "estimatedNarrationRange": {
+            "startSeconds": 19.897832773584906,
+            "endSeconds": 31.398415018867922,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 583,
+          "localEndFrame": 883,
+          "localStartSeconds": 19.433333333333334,
+          "localEndSeconds": 29.433333333333334,
+          "timelineStartFrame": 2367,
+          "timelineEndFrame": 2667,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            9,
+            10
+          ]
+        },
+        {
+          "sceneNumber": 11,
+          "title": "32시간 이어진 타설",
+          "outputSlot": 11,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-11",
+          "narrationGroupId": "group-03",
+          "narrationLineIds": [
+            "group-03-line-07",
+            "group-03-line-08"
+          ],
+          "narration": "여기서 눈에 띄는 기록이 하나 있습니다.\n기초 콘크리트를 붓는 작업이, 서른두 시간 동안 연속으로 이어졌다는 겁니다.",
+          "weight": 300,
+          "rawNarrationWeight": 57,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 10.405288698113207,
+          "estimatedNarrationRange": {
+            "startSeconds": 31.398415018867922,
+            "endSeconds": 41.80370371698113,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 883,
+          "localEndFrame": 1183,
+          "localStartSeconds": 29.433333333333334,
+          "localEndSeconds": 39.43333333333333,
+          "timelineStartFrame": 2667,
+          "timelineEndFrame": 2967,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            10,
+            11
+          ]
+        },
+        {
+          "sceneNumber": 12,
+          "title": "완성 후에는 보이지 않는 공사",
+          "outputSlot": 12,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-12",
+          "narrationGroupId": "group-03",
+          "narrationLineIds": [
+            "group-03-line-09"
+          ],
+          "narration": "높은 건물의 첫 번째 큰 공사는 완성 뒤에는 잘 보이지 않는 곳에서 이뤄졌습니다.",
+          "weight": 269,
+          "rawNarrationWeight": 36,
+          "recommendedFrames": 269,
+          "recommendedDurationSeconds": 8.966666666666667,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 8.966666666666667,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 6.571761283018868,
+          "estimatedNarrationRange": {
+            "startSeconds": 41.80370371698113,
+            "endSeconds": 48.375465,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 268.540541,
+          "localStartFrame": 1183,
+          "localEndFrame": 1452,
+          "localStartSeconds": 39.43333333333333,
+          "localEndSeconds": 48.4,
+          "timelineStartFrame": 2967,
+          "timelineEndFrame": 3236,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.024535000000000196
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-04",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-04-heami-rate0.wav",
+      "audioDurationSeconds": 27.619184,
+      "targetFrames": 829,
+      "plannedVideoDurationSeconds": 27.633333333333333,
+      "paddingToFrameSeconds": 0.014149333333332237,
+      "actualAudioCumulativeStartSeconds": 107.803719,
+      "videoTimelineStartFrame": 3236,
+      "semanticBridgeNote": "배관과 펌프는 수직 압송 설명을 함께 담당한다. 재료 질감 숏 시작에 압송 설명의 끝이 남아도 배관 투시 같은 추가 시각화를 만들지 않는다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 1.507483,
+          "endSeconds": 2.065578
+        },
+        {
+          "startSeconds": 4.191973,
+          "endSeconds": 5.064898
+        },
+        {
+          "startSeconds": 9.000544,
+          "endSeconds": 9.874059
+        },
+        {
+          "startSeconds": 16.928662,
+          "endSeconds": 17.802494
+        },
+        {
+          "startSeconds": 19.708481,
+          "endSeconds": 20.728163
+        },
+        {
+          "startSeconds": 26.858095,
+          "endSeconds": 27.619184
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 13,
+          "title": "높이 이어지는 배관",
+          "outputSlot": 13,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-13",
+          "narrationGroupId": "group-04",
+          "narrationLineIds": [
+            "group-04-line-01",
+            "group-04-line-02"
+          ],
+          "narration": "기초를 만들었다면, 이제 재료를 하늘로 보내야 합니다.\n높은 곳에 콘크리트를 붓는 일부터 만만하지 않습니다.",
+          "weight": 296,
+          "rawNarrationWeight": 54,
+          "recommendedFrames": 296,
+          "recommendedDurationSeconds": 9.866666666666667,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.866666666666667,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 9.560486769230769,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 9.560486769230769,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 0,
+          "localEndFrame": 296,
+          "localStartSeconds": 0,
+          "localEndSeconds": 9.866666666666667,
+          "timelineStartFrame": 3236,
+          "timelineEndFrame": 3532,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 9.000544,
+              "endSeconds": 9.874059
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            13,
+            14
+          ]
+        },
+        {
+          "sceneNumber": 14,
+          "title": "펌프로 밀어 올리는 콘크리트",
+          "outputSlot": 14,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-14",
+          "narrationGroupId": "group-04",
+          "narrationLineIds": [
+            "group-04-line-03",
+            "group-04-line-04"
+          ],
+          "narration": "롯데월드타워에는 펌프와 배관으로 콘크리트를 오백 미터 높이까지 밀어 올리는 기술이 사용됐습니다.\n이를 수직 압송이라고 합니다.",
+          "weight": 300,
+          "rawNarrationWeight": 62,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 10.97685517948718,
+          "estimatedNarrationRange": {
+            "startSeconds": 9.560486769230769,
+            "endSeconds": 20.53734194871795,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 296,
+          "localEndFrame": 596,
+          "localStartSeconds": 9.866666666666667,
+          "localEndSeconds": 19.866666666666667,
+          "timelineStartFrame": 3532,
+          "timelineEndFrame": 3832,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 19.708481,
+              "endSeconds": 20.728163
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            14
+          ]
+        },
+        {
+          "sceneNumber": 15,
+          "title": "흐름과 굳은 뒤의 강도",
+          "outputSlot": 15,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-15",
+          "narrationGroupId": "group-04",
+          "narrationLineIds": [
+            "group-04-line-05"
+          ],
+          "narration": "콘크리트는 굳은 뒤의 강도뿐 아니라 배관을 따라 올라갈 때의 성질까지 맞춰야 했습니다.",
+          "weight": 233,
+          "rawNarrationWeight": 40,
+          "recommendedFrames": 233,
+          "recommendedDurationSeconds": 7.766666666666667,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 7.766666666666667,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 7.0818420512820515,
+          "estimatedNarrationRange": {
+            "startSeconds": 20.53734194871795,
+            "endSeconds": 27.619184,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 229,
+          "localStartFrame": 596,
+          "localEndFrame": 829,
+          "localStartSeconds": 19.866666666666667,
+          "localEndSeconds": 27.633333333333333,
+          "timelineStartFrame": 3832,
+          "timelineEndFrame": 4065,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.014149333333332237
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            14,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-05",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-05-heami-rate0.wav",
+      "audioDurationSeconds": 37.517642,
+      "targetFrames": 1126,
+      "plannedVideoDurationSeconds": 37.53333333333333,
+      "paddingToFrameSeconds": 0.015691333333329283,
+      "actualAudioCumulativeStartSeconds": 135.422903,
+      "videoTimelineStartFrame": 4065,
+      "semanticBridgeNote": "거푸집 전경·패널·철근·플랫폼은 같은 반복 공정의 설명을 공유한다. 16번과 18번의 긴 내레이션을 17·19번으로 이어 재생하고 완성된 한 문장으로 컷을 강제하지 않는다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 3.891927,
+          "endSeconds": 4.78068
+        },
+        {
+          "startSeconds": 11.078095,
+          "endSeconds": 11.995283
+        },
+        {
+          "startSeconds": 16.191338,
+          "endSeconds": 17.082132
+        },
+        {
+          "startSeconds": 19.416644,
+          "endSeconds": 19.982721
+        },
+        {
+          "startSeconds": 24.587438,
+          "endSeconds": 25.475828
+        },
+        {
+          "startSeconds": 29.658277,
+          "endSeconds": 30.569705
+        },
+        {
+          "startSeconds": 32.573424,
+          "endSeconds": 33.494286
+        },
+        {
+          "startSeconds": 36.762676,
+          "endSeconds": 37.517642
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 16,
+          "title": "다음 높이를 준비하는 거푸집",
+          "outputSlot": 16,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-16",
+          "narrationGroupId": "group-05",
+          "narrationLineIds": [
+            "group-05-line-01",
+            "group-05-line-02"
+          ],
+          "narration": "높이가 달라질 때마다 작업하는 자리도 달라져야겠죠.\n그래서 건물의 중심부와 대형 기둥 공사에는 자동으로 올라가는 거푸집 장치가 쓰였습니다.",
+          "weight": 300,
+          "rawNarrationWeight": 67,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 12.027186669856459,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 12.027186669856459,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 0,
+          "localEndFrame": 300,
+          "localStartSeconds": 0,
+          "localEndSeconds": 10,
+          "timelineStartFrame": 4065,
+          "timelineEndFrame": 4365,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            16
+          ]
+        },
+        {
+          "sceneNumber": 17,
+          "title": "콘크리트 모양을 잡는 틀",
+          "outputSlot": 17,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-17",
+          "narrationGroupId": "group-05",
+          "narrationLineIds": [
+            "group-05-line-03"
+          ],
+          "narration": "거푸집은 콘크리트가 굳을 때까지 모양을 잡아 주는 틀입니다.",
+          "weight": 228,
+          "rawNarrationWeight": 29,
+          "recommendedFrames": 228,
+          "recommendedDurationSeconds": 7.6,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 7.6,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 5.205797215311005,
+          "estimatedNarrationRange": {
+            "startSeconds": 12.027186669856459,
+            "endSeconds": 17.232983885167464,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 227.671642,
+          "localStartFrame": 300,
+          "localEndFrame": 528,
+          "localStartSeconds": 10,
+          "localEndSeconds": 17.6,
+          "timelineStartFrame": 4365,
+          "timelineEndFrame": 4593,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "sceneNumber": 18,
+          "title": "다음 작업 높이의 철근",
+          "outputSlot": 18,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-18",
+          "narrationGroupId": "group-05",
+          "narrationLineIds": [
+            "group-05-line-04",
+            "group-05-line-05"
+          ],
+          "narration": "장비가 다음 작업 높이로 이동하면, 작업자들이 그곳에서 다시 철근을 배치하고 콘크리트를 붓습니다.\n완성된 부분을 발판 삼아 다음 높이로 올라가는 방식입니다.",
+          "weight": 300,
+          "rawNarrationWeight": 75,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 13.463268660287083,
+          "estimatedNarrationRange": {
+            "startSeconds": 17.232983885167464,
+            "endSeconds": 30.69625254545455,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 528,
+          "localEndFrame": 828,
+          "localStartSeconds": 17.6,
+          "localEndSeconds": 27.6,
+          "timelineStartFrame": 4593,
+          "timelineEndFrame": 4893,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            18
+          ]
+        },
+        {
+          "sceneNumber": 19,
+          "title": "작업 공간도 올라간다",
+          "outputSlot": 19,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-19",
+          "narrationGroupId": "group-05",
+          "narrationLineIds": [
+            "group-05-line-06",
+            "group-05-line-07"
+          ],
+          "narration": "건물만 높아지는 게 아닙니다.\n건물을 만드는 작업 공간도 함께 올라갑니다.",
+          "weight": 298,
+          "rawNarrationWeight": 38,
+          "recommendedFrames": 298,
+          "recommendedDurationSeconds": 9.933333333333334,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.933333333333334,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 6.8213894545454545,
+          "estimatedNarrationRange": {
+            "startSeconds": 30.69625254545455,
+            "endSeconds": 37.517642,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 298.328358,
+          "localStartFrame": 828,
+          "localEndFrame": 1126,
+          "localStartSeconds": 27.6,
+          "localEndSeconds": 37.53333333333333,
+          "timelineStartFrame": 4893,
+          "timelineEndFrame": 5191,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.015691333333329283
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            18,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-06",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-06-heami-rate0.wav",
+      "audioDurationSeconds": 46.730612,
+      "targetFrames": 1402,
+      "plannedVideoDurationSeconds": 46.733333333333334,
+      "paddingToFrameSeconds": 0.0027213333333335754,
+      "actualAudioCumulativeStartSeconds": 172.940545,
+      "videoTimelineStartFrame": 5191,
+      "semanticBridgeNote": "막대 연결 비유가 코어·기둥 화면까지 이어질 수 있다. 실제 구조를 설명하는 문장이 시작되기 전 개념 모델과 실제 재현 화면이 혼동되지 않게 청취 QA한다. 연결 부재 설명의 끝은 완공 유리 외피 숏에 이어도 된다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 1.341179,
+          "endSeconds": 1.956599
+        },
+        {
+          "startSeconds": 5.569025,
+          "endSeconds": 6.454422
+        },
+        {
+          "startSeconds": 8.322721,
+          "endSeconds": 9.191338
+        },
+        {
+          "startSeconds": 11.938866,
+          "endSeconds": 12.80059
+        },
+        {
+          "startSeconds": 18.015374,
+          "endSeconds": 18.89161
+        },
+        {
+          "startSeconds": 22.976961,
+          "endSeconds": 23.851202
+        },
+        {
+          "startSeconds": 28.851882,
+          "endSeconds": 29.824354
+        },
+        {
+          "startSeconds": 30.887891,
+          "endSeconds": 31.501814
+        },
+        {
+          "startSeconds": 35.27678,
+          "endSeconds": 36.15356
+        },
+        {
+          "startSeconds": 40.60585,
+          "endSeconds": 41.483537
+        },
+        {
+          "startSeconds": 45.963946,
+          "endSeconds": 46.730612
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 20,
+          "title": "옆에서 오는 바람",
+          "outputSlot": 20,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-20",
+          "narrationGroupId": "group-06",
+          "narrationLineIds": [
+            "group-06-line-01",
+            "group-06-line-02"
+          ],
+          "narration": "높이 올라갈수록, 무게를 받치는 것과 함께 생각해야 할 힘이 있습니다.\n옆에서 밀어오는 바람입니다.",
+          "weight": 275,
+          "rawNarrationWeight": 50,
+          "recommendedFrames": 275,
+          "recommendedDurationSeconds": 9.166666666666666,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.166666666666666,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 9.021353667953669,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 9.021353667953669,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 0,
+          "localEndFrame": 275,
+          "localStartSeconds": 0,
+          "localEndSeconds": 9.166666666666666,
+          "timelineStartFrame": 5191,
+          "timelineEndFrame": 5466,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 8.322721,
+              "endSeconds": 9.191338
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            20,
+            21
+          ]
+        },
+        {
+          "sceneNumber": 21,
+          "title": "연결해서 함께 받는다",
+          "outputSlot": 21,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-21",
+          "narrationGroupId": "group-06",
+          "narrationLineIds": [
+            "group-06-line-03",
+            "group-06-line-04",
+            "group-06-line-05"
+          ],
+          "narration": "앞서 세워 둔 긴 막대를 떠올려 보세요.\n아래를 잡는 것에 더해 주변의 지지대와 연결하면 힘을 함께 받을 수 있겠죠.\n실제 건물에서는 그런 연결을 훨씬 정교하게 설계합니다.",
+          "weight": 291,
+          "rawNarrationWeight": 80,
+          "recommendedFrames": 291,
+          "recommendedDurationSeconds": 9.7,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.7,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 14.43416586872587,
+          "estimatedNarrationRange": {
+            "startSeconds": 9.021353667953669,
+            "endSeconds": 23.45551953667954,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 275,
+          "localEndFrame": 566,
+          "localStartSeconds": 9.166666666666666,
+          "localEndSeconds": 18.866666666666667,
+          "timelineStartFrame": 5466,
+          "timelineEndFrame": 5757,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 18.015374,
+              "endSeconds": 18.89161
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            21
+          ]
+        },
+        {
+          "sceneNumber": 22,
+          "title": "중심부와 바깥 기둥",
+          "outputSlot": 22,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-22",
+          "narrationGroupId": "group-06",
+          "narrationLineIds": [
+            "group-06-line-06"
+          ],
+          "narration": "롯데월드타워에는 중심부의 두꺼운 벽과 여덟 개의 대형 기둥이 있습니다.",
+          "weight": 300,
+          "rawNarrationWeight": 34,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 6.134520494208494,
+          "estimatedNarrationRange": {
+            "startSeconds": 23.45551953667954,
+            "endSeconds": 29.590040030888034,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 258.606061,
+          "localStartFrame": 566,
+          "localEndFrame": 866,
+          "localStartSeconds": 18.866666666666667,
+          "localEndSeconds": 28.866666666666667,
+          "timelineStartFrame": 5757,
+          "timelineEndFrame": 6057,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 28.851882,
+              "endSeconds": 29.824354
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            21,
+            22
+          ]
+        },
+        {
+          "sceneNumber": 23,
+          "title": "구조를 연결하는 부재",
+          "outputSlot": 23,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-23",
+          "narrationGroupId": "group-06",
+          "narrationLineIds": [
+            "group-06-line-07",
+            "group-06-line-08"
+          ],
+          "narration": "그리고 아웃리거, 벨트트러스라고 부르는 연결 구조가 함께 작동합니다.\n쉽게 말해 중심과 바깥쪽 구조가 힘을 나눠 받도록 한 겁니다.",
+          "weight": 293,
+          "rawNarrationWeight": 63,
+          "recommendedFrames": 293,
+          "recommendedDurationSeconds": 9.766666666666667,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.766666666666667,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 11.366905621621623,
+          "estimatedNarrationRange": {
+            "startSeconds": 29.590040030888034,
+            "endSeconds": 40.95694565250966,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 866,
+          "localEndFrame": 1159,
+          "localStartSeconds": 28.866666666666667,
+          "localEndSeconds": 38.63333333333333,
+          "timelineStartFrame": 6057,
+          "timelineEndFrame": 6350,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            22,
+            23
+          ]
+        },
+        {
+          "sceneNumber": 24,
+          "title": "유리 외피 안의 구조",
+          "outputSlot": 24,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-24",
+          "narrationGroupId": "group-06",
+          "narrationLineIds": [
+            "group-06-line-09"
+          ],
+          "narration": "유리로 덮인 겉모습 안에는 이렇게 힘이 이동하는 길이 숨어 있습니다.",
+          "weight": 243,
+          "rawNarrationWeight": 32,
+          "recommendedFrames": 243,
+          "recommendedDurationSeconds": 8.1,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 8.1,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 5.773666347490348,
+          "estimatedNarrationRange": {
+            "startSeconds": 40.95694565250966,
+            "endSeconds": 46.73061200000001,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 243.393939,
+          "localStartFrame": 1159,
+          "localEndFrame": 1402,
+          "localStartSeconds": 38.63333333333333,
+          "localEndSeconds": 46.733333333333334,
+          "timelineStartFrame": 6350,
+          "timelineEndFrame": 6593,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.0027213333333335754
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            23,
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-07",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-07-heami-rate0.wav",
+      "audioDurationSeconds": 33.448617,
+      "targetFrames": 1004,
+      "plannedVideoDurationSeconds": 33.46666666666667,
+      "paddingToFrameSeconds": 0.01804966666666985,
+      "actualAudioCumulativeStartSeconds": 219.671157,
+      "videoTimelineStartFrame": 6593,
+      "semanticBridgeNote": "정지한 크레인→분리 부품을 내리는 숏이 단계별 해체 설명을 함께 담당한다. 26→27 컷은 그룹 19.8초의 감지된 휴지 안이지만 정확히 어떤 문장의 끝인지는 확인하지 않았다. 엘리베이터가 거대 크레인을 통째 운반한다는 인상이 없도록 음성과 화면을 함께 확인한다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 2.730204,
+          "endSeconds": 3.650159
+        },
+        {
+          "startSeconds": 6.768209,
+          "endSeconds": 7.634694
+        },
+        {
+          "startSeconds": 12.386531,
+          "endSeconds": 13.277007
+        },
+        {
+          "startSeconds": 16.294059,
+          "endSeconds": 16.859683
+        },
+        {
+          "startSeconds": 19.775692,
+          "endSeconds": 20.647528
+        },
+        {
+          "startSeconds": 22.845986,
+          "endSeconds": 23.760998
+        },
+        {
+          "startSeconds": 25.027891,
+          "endSeconds": 25.601497
+        },
+        {
+          "startSeconds": 28.029932,
+          "endSeconds": 28.940499
+        },
+        {
+          "startSeconds": 32.692472,
+          "endSeconds": 33.448617
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 25,
+          "title": "처음의 크레인으로 돌아가기",
+          "outputSlot": 25,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-25",
+          "narrationGroupId": "group-07",
+          "narrationLineIds": [
+            "group-07-line-01",
+            "group-07-line-02"
+          ],
+          "narration": "이제 처음의 질문으로 돌아가 보겠습니다.\n꼭대기에 남은 크레인은 어떻게 내려왔을까요?",
+          "weight": 294,
+          "rawNarrationWeight": 44,
+          "recommendedFrames": 294,
+          "recommendedDurationSeconds": 9.8,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.8,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 7.6255914404145075,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 7.6255914404145075,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 264.752137,
+          "localStartFrame": 0,
+          "localEndFrame": 294,
+          "localStartSeconds": 0,
+          "localEndSeconds": 9.8,
+          "timelineStartFrame": 6593,
+          "timelineEndFrame": 6887,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            25,
+            26
+          ]
+        },
+        {
+          "sceneNumber": 26,
+          "title": "큰 장비를 작은 부품으로",
+          "outputSlot": 26,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-26",
+          "narrationGroupId": "group-07",
+          "narrationLineIds": [
+            "group-07-line-03",
+            "group-07-line-04"
+          ],
+          "narration": "롯데건설이 설명한 방법은 크레인의 크기를 단계적으로 줄이는 겁니다.\n중형 크레인으로 대형 크레인을 나눠 해체하고, 소형 크레인으로 중형 크레인을 해체합니다.",
+          "weight": 300,
+          "rawNarrationWeight": 76,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 13.171476124352331,
+          "estimatedNarrationRange": {
+            "startSeconds": 7.6255914404145075,
+            "endSeconds": 20.797067564766838,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 294,
+          "localEndFrame": 594,
+          "localStartSeconds": 9.8,
+          "localEndSeconds": 19.8,
+          "timelineStartFrame": 6887,
+          "timelineEndFrame": 7187,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 19.775692,
+              "endSeconds": 20.647528
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            26
+          ]
+        },
+        {
+          "sceneNumber": 27,
+          "title": "마지막 소형 장비의 부품",
+          "outputSlot": 27,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-27",
+          "narrationGroupId": "group-07",
+          "narrationLineIds": [
+            "group-07-line-05",
+            "group-07-line-06"
+          ],
+          "narration": "마지막에 남은 소형 크레인은요?\n부품으로 분해한 뒤, 건물 안 엘리베이터로 내려보냅니다.",
+          "weight": 250,
+          "rawNarrationWeight": 46,
+          "recommendedFrames": 250,
+          "recommendedDurationSeconds": 8.333333333333334,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 8.333333333333334,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 7.972209233160621,
+          "estimatedNarrationRange": {
+            "startSeconds": 20.797067564766838,
+            "endSeconds": 28.76927679792746,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 276.786325,
+          "localStartFrame": 594,
+          "localEndFrame": 844,
+          "localStartSeconds": 19.8,
+          "localEndSeconds": 28.133333333333333,
+          "timelineStartFrame": 7187,
+          "timelineEndFrame": 7437,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 28.029932,
+              "endSeconds": 28.940499
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            26,
+            27
+          ]
+        },
+        {
+          "sceneNumber": 28,
+          "title": "엘리베이터로 끝나는 퇴근길",
+          "outputSlot": 28,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-28",
+          "narrationGroupId": "group-07",
+          "narrationLineIds": [
+            "group-07-line-07"
+          ],
+          "narration": "거대한 장비의 마지막 퇴근길은 엘리베이터였던 겁니다.",
+          "weight": 160,
+          "rawNarrationWeight": 27,
+          "recommendedFrames": 160,
+          "recommendedDurationSeconds": 5.333333333333333,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 5.333333333333333,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 4.679340202072539,
+          "estimatedNarrationRange": {
+            "startSeconds": 28.76927679792746,
+            "endSeconds": 33.448617,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 162.461538,
+          "localStartFrame": 844,
+          "localEndFrame": 1004,
+          "localStartSeconds": 28.133333333333333,
+          "localEndSeconds": 33.46666666666667,
+          "timelineStartFrame": 7437,
+          "timelineEndFrame": 7597,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.01804966666666985
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            27,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "group-08",
+      "audioPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-08-heami-rate0.wav",
+      "audioDurationSeconds": 53.514966,
+      "targetFrames": 1606,
+      "plannedVideoDurationSeconds": 53.53333333333333,
+      "paddingToFrameSeconds": 0.018367333333330293,
+      "actualAudioCumulativeStartSeconds": 253.119774,
+      "videoTimelineStartFrame": 7597,
+      "semanticBridgeNote": "협업 탁상 두 숏은 시공·설계 역할 소개를 공유한다. 현장·자재 숏에 협업 성과 설명을 이어 읽고, 33·34번 완공 타워 두 숏으로 긴 마지막 문단을 함께 받는다. 마지막 문장을 줄이지 않는다.",
+      "detectedLowAmplitudeIntervals": [
+        {
+          "startSeconds": 2.791791,
+          "endSeconds": 3.668934
+        },
+        {
+          "startSeconds": 6.427029,
+          "endSeconds": 7.378141
+        },
+        {
+          "startSeconds": 9.563673,
+          "endSeconds": 10.171882
+        },
+        {
+          "startSeconds": 13.988073,
+          "endSeconds": 14.879002
+        },
+        {
+          "startSeconds": 23.22059,
+          "endSeconds": 24.135828
+        },
+        {
+          "startSeconds": 27.838594,
+          "endSeconds": 28.458458
+        },
+        {
+          "startSeconds": 31.527075,
+          "endSeconds": 32.417778
+        },
+        {
+          "startSeconds": 36.106213,
+          "endSeconds": 36.708889
+        },
+        {
+          "startSeconds": 40.798866,
+          "endSeconds": 41.853696
+        },
+        {
+          "startSeconds": 44.231429,
+          "endSeconds": 44.837415
+        },
+        {
+          "startSeconds": 47.899592,
+          "endSeconds": 48.802812
+        },
+        {
+          "startSeconds": 52.755374,
+          "endSeconds": 53.514966
+        }
+      ],
+      "shots": [
+        {
+          "sceneNumber": 29,
+          "title": "시공과 설계의 협업",
+          "outputSlot": 29,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-29",
+          "narrationGroupId": "group-08",
+          "narrationLineIds": [
+            "group-08-line-01",
+            "group-08-line-02"
+          ],
+          "narration": "그렇다면 이 모든 일을 누가 해냈을까요?\n주 시공을 맡은 곳은 롯데건설입니다.",
+          "weight": 221,
+          "rawNarrationWeight": 39,
+          "recommendedFrames": 221,
+          "recommendedDurationSeconds": 7.366666666666666,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 7.366666666666666,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 7.1475468287671236,
+          "estimatedNarrationRange": {
+            "startSeconds": 0,
+            "endSeconds": 7.1475468287671236,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 226.373333,
+          "localStartFrame": 0,
+          "localEndFrame": 221,
+          "localStartSeconds": 0,
+          "localEndSeconds": 7.366666666666666,
+          "timelineStartFrame": 7597,
+          "timelineEndFrame": 7818,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 6.427029,
+              "endSeconds": 7.378141
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            29,
+            30
+          ]
+        },
+        {
+          "sceneNumber": 30,
+          "title": "설계에 참여한 전문 기업",
+          "outputSlot": 30,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-30",
+          "narrationGroupId": "group-08",
+          "narrationLineIds": [
+            "group-08-line-03"
+          ],
+          "narration": "건축 디자인에는 케이피에프, 구조설계에는 레라 등 해외 전문 기업도 참여했습니다.",
+          "weight": 225,
+          "rawNarrationWeight": 40,
+          "recommendedFrames": 225,
+          "recommendedDurationSeconds": 7.5,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 7.5,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 7.330817260273973,
+          "estimatedNarrationRange": {
+            "startSeconds": 7.1475468287671236,
+            "endSeconds": 14.478364089041097,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 232.177778,
+          "localStartFrame": 221,
+          "localEndFrame": 446,
+          "localStartSeconds": 7.366666666666666,
+          "localEndSeconds": 14.866666666666667,
+          "timelineStartFrame": 7818,
+          "timelineEndFrame": 8043,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 13.988073,
+              "endSeconds": 14.879002
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            30,
+            31
+          ]
+        },
+        {
+          "sceneNumber": 31,
+          "title": "현실의 구조를 만드는 현장",
+          "outputSlot": 31,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-31",
+          "narrationGroupId": "group-08",
+          "narrationLineIds": [
+            "group-08-line-04"
+          ],
+          "narration": "그래서 이 건물은 국내 시공진이 국제적인 설계와 기술 협업을 실제 초고층으로 구현한 성과라고 설명할 수 있습니다.",
+          "weight": 300,
+          "rawNarrationWeight": 51,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 9.346792006849315,
+          "estimatedNarrationRange": {
+            "startSeconds": 14.478364089041097,
+            "endSeconds": 23.825156095890414,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 296.026667,
+          "localStartFrame": 446,
+          "localEndFrame": 746,
+          "localStartSeconds": 14.866666666666667,
+          "localEndSeconds": 24.866666666666667,
+          "timelineStartFrame": 8043,
+          "timelineEndFrame": 8343,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            31,
+            32
+          ]
+        },
+        {
+          "sceneNumber": 32,
+          "title": "자재와 장비를 연결하는 현장",
+          "outputSlot": 32,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-32",
+          "narrationGroupId": "group-08",
+          "narrationLineIds": [
+            "group-08-line-05"
+          ],
+          "narration": "도면 속 모양을 현실로 만드는 데에는 자재와 장비, 공정을 연결하는 현장의 역량이 필요합니다.",
+          "weight": 281,
+          "rawNarrationWeight": 44,
+          "recommendedFrames": 281,
+          "recommendedDurationSeconds": 9.366666666666667,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.366666666666667,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 8.06389898630137,
+          "estimatedNarrationRange": {
+            "startSeconds": 23.825156095890414,
+            "endSeconds": 31.88905508219178,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 255.395556,
+          "localStartFrame": 746,
+          "localEndFrame": 1027,
+          "localStartSeconds": 24.866666666666667,
+          "localEndSeconds": 34.233333333333334,
+          "timelineStartFrame": 8343,
+          "timelineEndFrame": 8624,
+          "cutAfter": {
+            "kind": "crosses_continuous_narration",
+            "silenceInterval": null,
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            32,
+            33
+          ]
+        },
+        {
+          "sceneNumber": 33,
+          "title": "다시 올려다보는 타워",
+          "outputSlot": 33,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-33",
+          "narrationGroupId": "group-08",
+          "narrationLineIds": [
+            "group-08-line-06"
+          ],
+          "narration": "다음에 잠실에서 롯데월드타워를 올려다보게 된다면, 겉모습과 함께 그 안에서 이어졌을 작업도 떠올려 보세요.",
+          "weight": 300,
+          "rawNarrationWeight": 51,
+          "recommendedFrames": 300,
+          "recommendedDurationSeconds": 10,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 10,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 9.346792006849315,
+          "estimatedNarrationRange": {
+            "startSeconds": 31.88905508219178,
+            "endSeconds": 41.235847089041094,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 296.026667,
+          "localStartFrame": 1027,
+          "localEndFrame": 1327,
+          "localStartSeconds": 34.233333333333334,
+          "localEndSeconds": 44.233333333333334,
+          "timelineStartFrame": 8624,
+          "timelineEndFrame": 8924,
+          "cutAfter": {
+            "kind": "within_detected_low_amplitude_interval",
+            "silenceInterval": {
+              "startSeconds": 44.231429,
+              "endSeconds": 44.837415
+            },
+            "exactSentenceBoundaryConfirmed": false
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            33,
+            34
+          ]
+        },
+        {
+          "sceneNumber": 34,
+          "title": "높이에 담긴 과정",
+          "outputSlot": 34,
+          "outputDirectory": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-34",
+          "narrationGroupId": "group-08",
+          "narrationLineIds": [
+            "group-08-line-07",
+            "group-08-line-08"
+          ],
+          "narration": "땅속의 기초부터 하늘 위 공사장, 그리고 마지막 크레인을 내려보내던 순간까지.\n오백오십오 미터라는 높이에는 그 모든 과정이 들어 있습니다.",
+          "weight": 279,
+          "rawNarrationWeight": 67,
+          "recommendedFrames": 279,
+          "recommendedDurationSeconds": 9.3,
+          "sourceInSeconds": 0,
+          "sourceOutSeconds": 9.3,
+          "sourceCapFrames": 300,
+          "sourceInStatus": "provisional; verify actual action and source length before assembly",
+          "actualSourceDurationChecked": false,
+          "uncappedEstimatedNarrationSeconds": 12.279118910958905,
+          "estimatedNarrationRange": {
+            "startSeconds": 41.235847089041094,
+            "endSeconds": 53.514966,
+            "status": "text-length heuristic; not transcription or forced alignment"
+          },
+          "boundedTextTargetFrames": 300,
+          "localStartFrame": 1327,
+          "localEndFrame": 1606,
+          "localStartSeconds": 44.233333333333334,
+          "localEndSeconds": 53.53333333333333,
+          "timelineStartFrame": 8924,
+          "timelineEndFrame": 9203,
+          "cutAfter": {
+            "kind": "group_end",
+            "paddingSeconds": 0.018367333333330293
+          },
+          "estimatedNarrationFromOriginalScenes": [
+            34
+          ]
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "sceneOrderAndFolderMapping": true,
+    "all34ScenesCoveredOnce": true,
+    "groupNarrationMatchesAudioText": true,
+    "allFramesAtMost300": true,
+    "allGroupFrameSumsExact": true,
+    "inputsModifiedByThisTask": false,
+    "queueModified": false
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-10T10:54:47.782Z",
+  "scope": "Local visual QA of completed output slots 03 through 07 only",
+  "contactSheetManifest": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\qa\\contact-sheets-ce358981-2a78-42c4-b5e7-3cc5eea4cc8b.json",
+  "method": {
+    "imagesActuallyViewed": 5,
+    "framesActuallyViewed": 25,
+    "framePositions": "0%,25%,50%,75%,near end (9.9s for these 10s clips)",
+    "tileResolution": {
+      "width": 384,
+      "height": 216
+    },
+    "architecturalReferenceComparisonPerformed": true,
+    "limitations": [
+      "연속 재생이나 모든 프레임을 검토한 결과가 아니다. 표본 사이의 짧은 변형·깜빡임·전환 오류는 배제할 수 없다.",
+      "오디오·음성 싱크는 검토하지 않았다.",
+      "실제 롯데월드타워의 외관·기초·공사 장비 고증은 이번 로컬 프레임 검토만으로 확정하지 않았다."
+    ],
+    "architecturalReferenceComparisonScope": "Slot 4 broad silhouette/crown only; all other detailed architectural verification remains unperformed"
+  },
+  "summary": {
+    "conditionallyUsableIllustrativeSlots": [
+      3,
+      6,
+      7
+    ],
+    "holdForLandmarkAppearanceVerificationSlots": [],
+    "severeSampledFrameBreakageConfirmed": [],
+    "automaticRegenerationRequested": false,
+    "conditionallyUsableWithPlannedTrimSlots": [
+      5
+    ],
+    "parentAllowsOriginalOutputsWithExplicitAiReenactmentLimitations": true,
+    "conditionallyUsableBroadLandmarkReenactmentSlots": [
+      4
+    ]
+  },
+  "entries": [
+    {
+      "outputSlot": 3,
+      "sceneNumber": 3,
+      "jobId": "925ad49f-abc3-4d0e-9b24-c9264b8b0cf2",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-03\\shot-03-925ad49f-abc3-4d0e-9b24-c9264b8b0cf2.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-03\\contact-sheet-925ad49f-abc3-4d0e-9b24-c9264b8b0cf2.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "usability": "conditionally_usable_as_illustration",
+      "severeShapeFailureObserved": false,
+      "observations": [
+        "위쪽의 가로 지지대에서 굴착 바닥의 암석으로 시선이 내려가는 구성이 5개 표본에서 이어진다.",
+        "완성된 타워나 공사 이후의 풍경이 배경에 삽입된 모습은 표본에서 보이지 않는다.",
+        "목재처럼 보이는 흙막이와 굴착 배치는 일반적인 공사 재현으로 읽히며, 실제 롯데월드타워 현장 배치와 일치하는지는 확인하지 않았다."
+      ],
+      "editNotes": [
+        "땅속부터 살펴보자는 설명에 대응하는 일반 굴착 재현 컷으로 사용 가능하다.",
+        "실제 현장 기록이나 실측 지반 구조를 보여 주는 컷으로 단정하지 않는다.",
+        "프레임 사이의 가로 지지대·암석 변형 여부는 전체 재생 검수가 추가로 필요하다."
+      ],
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false
+    },
+    {
+      "outputSlot": 4,
+      "sceneNumber": 4,
+      "jobId": "26d65252-2d59-489b-950f-0b19cac80d0a",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-04\\shot-04-26d65252-2d59-489b-950f-0b19cac80d0a.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-04\\contact-sheet-26d65252-2d59-489b-950f-0b19cac80d0a.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "usability": "conditionally_usable_broad_landmark_reenactment",
+      "severeShapeFailureObserved": false,
+      "observations": [
+        "카메라가 뒤로 물러나며 타워 상부에서 하부와 도시 원경까지 프레이밍이 넓어진다.",
+        "상단이 가운데가 갈라진 두 개의 직선형 판처럼 보인다. 샘플 안에서는 이 형태가 대체로 유지된다.",
+        "슬롯 5에서 드러나는 중앙 패널과 뾰족한 측면 날개 형태의 크라운과 외관 인상이 달라, 두 컷이 같은 실제 타워를 일관되게 재현하는지 확인이 필요하다.",
+        "오른쪽 아래에 작은 흰색 별 모양 표시가 보인다."
+      ],
+      "editNotes": [
+        "원설계사 KPF의 실제 외관 사진과 큰 크라운·테이퍼 형태를 비교했다. 실제 기록 영상이나 정밀 건축 재현으로는 단정하지 않으며 AI 설명용 화면으로 사용한다.",
+        "시작 표본은 상부 중심의 근접 구도이며 전체 실루엣은 뒤쪽 표본에서 더 잘 보인다.",
+        "555m와 123층이라는 수치를 이 AI 화면의 층수나 상대 크기로 증명하는 편집을 하지 않는다."
+      ],
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "parentDisposition": {
+        "decision": "Use within the original 34 outputs only as an explicitly limited AI explanatory reenactment",
+        "architecturalFidelityVerified": false,
+        "limitation": "두 판처럼 보이는 크라운과 테이퍼 실루엣을 실제 기록 영상 또는 정확한 건축 재현으로 단정하지 않는다."
+      },
+      "architecturalReferenceComparison": {
+        "performed": true,
+        "scope": "Broad crown and tapering silhouette only; not exact architectural verification",
+        "referenceImage": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\qa\\kpf-exterior-inspection-reference.webp",
+        "sourcePage": "https://www.kpf.com/project/lotte-world-tower",
+        "comparison": [
+          "KPF 실제 외관 사진에도 상단 두 갈래와 중앙 절개가 보인다.",
+          "실제 사진에서 위로 좁아지는 큰 실루엣이 확인되어 슬롯 4의 큰 형상은 비교 가능하다.",
+          "이 비교만으로 슬롯 4의 세부 외장·정확한 비율·도시 배경을 고증한 것으로 간주하지 않는다."
+        ],
+        "conclusion": "상단이 두 판처럼 보인다는 점 자체는 심각한 형태 오류의 근거가 아니다. 큰 특징을 가진 AI 설명용 재현으로 조건부 사용 가능.",
+        "notUsedInFinalMedia": true
+      }
+    },
+    {
+      "outputSlot": 5,
+      "sceneNumber": 5,
+      "jobId": "21a39818-71e2-4baa-bb52-00dec75da98d",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-05\\shot-05-21a39818-71e2-4baa-bb52-00dec75da98d.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-05\\contact-sheet-21a39818-71e2-4baa-bb52-00dec75da98d.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "usability": "conditionally_usable_with_planned_trim",
+      "severeShapeFailureObserved": false,
+      "observations": [
+        "유리 외장을 따라 위로 올라가며 끝부분에 크라운이 드러난다.",
+        "9.9초 표본에서 중앙 상단 패널과 양옆의 뾰족한 구조, 측면 격자 구조가 보인다.",
+        "슬롯 4의 상단 형상 및 외장 인상과 차이가 있어 정확한 건물 외관과 연속성이 검토 대상이다.",
+        "오른쪽 아래에 작은 흰색 별 모양 표시가 보인다."
+      ],
+      "editNotes": [
+        "부모가 확인한 최종 배정은 시작 0초부터 4.567초까지이므로 후반의 크라운이 드러나는 구간은 최종 편집에 포함되지 않는다. 해당 사용 범위에서는 유리 외장 근접 컷으로 조건부 사용한다.",
+        "최고층 건물이라는 설명에 쓰기 전 완성된 롯데월드타워 크라운의 실제 형상과 비교한다.",
+        "현재 표본만으로 실제 건물과 불일치한다고 확정하지는 않으나, 끝부분 크라운을 우선 확인한다.",
+        "크라운을 가리기 위한 임의 크롭·삭제나 재생성은 이 검토에서 실행하지 않았다."
+      ],
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 4.567,
+        "source": "Parent provided confirmed final allocation"
+      }
+    },
+    {
+      "outputSlot": 6,
+      "sceneNumber": 6,
+      "jobId": "e91dd5fb-5fee-41d1-998b-468bd4a79109",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-06\\shot-06-e91dd5fb-5fee-41d1-998b-468bd4a79109.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-06\\contact-sheet-e91dd5fb-5fee-41d1-998b-468bd4a79109.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "usability": "conditionally_usable_as_illustration",
+      "severeShapeFailureObserved": false,
+      "observations": [
+        "아래쪽 유리 외장과 위쪽의 미완성 골조·작업 발판이 보이며 카메라가 위로 이동한다.",
+        "다섯 표본 모두 공사 중 상태를 유지하고, 중간에 완공 타워로 바뀌는 삽입 전환은 관찰되지 않았다.",
+        "표본 수준에서 층판과 주요 수직 부재가 갑자기 끊기거나 공중에 뜬 심한 형태 오류는 확인되지 않았다."
+      ],
+      "editNotes": [
+        "공사 기간을 설명하는 재현 컷으로 조건부 사용 가능하다.",
+        "특정 연월의 실제 공사 모습으로 단정하거나 10초 안에 수년이 지났다는 의미의 타임랩스로 사용하지 않는다.",
+        "발판·난간·기둥 연결의 세부 고증과 프레임 사이 변형은 이 384x216 표본만으로 검증하지 않았다."
+      ],
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false
+    },
+    {
+      "outputSlot": 7,
+      "sceneNumber": 7,
+      "jobId": "eab382f2-e6a5-4a2b-bc5a-05bacc2d457d",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-07\\shot-07-eab382f2-e6a5-4a2b-bc5a-05bacc2d457d.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-07\\contact-sheet-eab382f2-e6a5-4a2b-bc5a-05bacc2d457d.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "usability": "conditionally_usable_as_illustration",
+      "severeShapeFailureObserved": false,
+      "observations": [
+        "완공된 유리 외장과 V자형 지지 구조, 출입구를 따라 수평 이동하는 구도가 이어진다.",
+        "표본 안에서 공사 장비·행사 현수막·군중이나 개장식 장면이 갑자기 삽입된 모습은 보이지 않는다.",
+        "표본 수준에서 유리벽과 지지 구조에 심한 붕괴·끊김은 관찰되지 않았다.",
+        "오른쪽 아래에 작은 흰색 별 모양 표시가 보인다."
+      ],
+      "editNotes": [
+        "공사 완료와 개장 시점의 차이를 설명하는 일반적인 완공 건물 하부 컷으로 조건부 사용 가능하다.",
+        "2017년 4월 3일의 실제 개장식 기록으로 소개하지 않는다.",
+        "유리 반사와 지지 구조의 프레임 사이 연속성은 전체 재생에서 별도 확인이 필요하며, 실제 타워 출입구 고증은 수행하지 않았다."
+      ],
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false
+    }
+  ],
+  "execution": {
+    "flowCalls": 0,
+    "queueModified": false,
+    "promptsModified": false,
+    "sourceVideosModified": false,
+    "contactSheetsCreated": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "existingContactSheetsReused": [
+      3
+    ]
+  },
+  "updatedAt": "2026-09-10T11:00:26.031Z"
+}

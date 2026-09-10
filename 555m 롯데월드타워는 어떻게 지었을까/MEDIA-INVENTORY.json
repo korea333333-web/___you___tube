@@ -1,0 +1,275 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-09-10T12:20:06.907Z",
+  "baseDirectory": "555m 롯데월드타워는 어떻게 지었을까",
+  "storage": "local-only; media files are excluded from Git",
+  "voiceStatus": "Existing Heami voice was rejected by the user; no replacement has been generated.",
+  "originalClipCount": 34,
+  "narrationGroupCount": 8,
+  "files": [
+    {
+      "path": "scene-01/shot-02-14826cca-e4b1-47c6-ab4b-05b42872b2f8.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 5698743,
+      "sha256": "6c9336f3e47f0145b217d5b6cb2dcfd8ea73e173ed9d2951247757809f6f7d47"
+    },
+    {
+      "path": "scene-02/shot-01-abcd720b-483b-4ed8-9378-6eaef98270f6.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4056798,
+      "sha256": "b118b93639fd9b0a7e9f9f7e35d8f4b9ec41a56e009e2e3204c7867b4eedb985"
+    },
+    {
+      "path": "scene-03/shot-03-925ad49f-abc3-4d0e-9b24-c9264b8b0cf2.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4144655,
+      "sha256": "d304a53aed703d80e7e2769b5177b36ae0c36a45522975445df35b9a8176bdc8"
+    },
+    {
+      "path": "scene-04/shot-04-26d65252-2d59-489b-950f-0b19cac80d0a.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4735986,
+      "sha256": "bbd93bbbcd5b7643143391fb40d07c2fd295a69df691fab8445c9bc1b50d6d7b"
+    },
+    {
+      "path": "scene-05/shot-05-21a39818-71e2-4baa-bb52-00dec75da98d.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 2767684,
+      "sha256": "1ba083a3451fa8f5cf57b0f07db2ef287e98147b41971e5a1c3c6b4453a78e31"
+    },
+    {
+      "path": "scene-06/shot-06-e91dd5fb-5fee-41d1-998b-468bd4a79109.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 5530650,
+      "sha256": "14729d77c11f34cd82464e0fca4e4712e28cc0adccd1d8839f6c9f98d9450e6c"
+    },
+    {
+      "path": "scene-07/shot-07-eab382f2-e6a5-4a2b-bc5a-05bacc2d457d.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 3451792,
+      "sha256": "b5edb9e70822cd1519c4b7bb77fe6231b6c97d17dc9bedb44aa2ebcd92d37a31"
+    },
+    {
+      "path": "scene-08/shot-08-196b24d5-140a-4004-8742-ab184a320b54.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1393741,
+      "sha256": "618ecc194181b7d12bd67366bddf0dae47b02b6bf9cbe055ebd2ed0728ecb8fa"
+    },
+    {
+      "path": "scene-09/shot-09-3c029f79-652f-4c82-b531-32e7baa7d590.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 11644136,
+      "sha256": "d5ab774c5deb277e9e30cc75ebd50accfc2e59f65005ee7dbbfe07d58dcac8e8"
+    },
+    {
+      "path": "scene-10/shot-10-4daab625-e2a0-49ed-9a17-85f9ee344a22.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1881091,
+      "sha256": "9b7f97dbb6d5df2e634148246a747a1a890d399449bbf5738944914a7186734b"
+    },
+    {
+      "path": "scene-11/shot-11-c049485e-eb3d-43e1-80b6-761ff4ee4018.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4606164,
+      "sha256": "ec9654a2ab84353e20aeceef2c3a4b40e5502f5a7cd428c3dd59a80a3af54eb7"
+    },
+    {
+      "path": "scene-12/shot-12-a5e8c090-12bd-4b1c-8b71-59ed160e42c2.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 2712419,
+      "sha256": "7cd36034c0b0d2cf506c5d24ec199723235538716ea0606eb2489e431e1e6403"
+    },
+    {
+      "path": "scene-13/shot-13-6d7c0a16-5483-41f1-976e-1566396de003.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 5862934,
+      "sha256": "d8e014048444dc8de2da1c82bb966f31a91319cd10190c400291f356f85c9507"
+    },
+    {
+      "path": "scene-14/shot-14-9aa50953-995f-41b0-965d-bbce7739c5e1.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 3329114,
+      "sha256": "0bbfc7e0d72451153a1f38648df790de953977805971d8ede6f2dfd7f51c93f9"
+    },
+    {
+      "path": "scene-15/shot-15-4d6493f2-a8d2-4054-af8b-4b19246f9d6b.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4583114,
+      "sha256": "ee474ac52622b16dcbbf35592838a917d9dd30fefa7eaa87324556b31b08db67"
+    },
+    {
+      "path": "scene-16/shot-16-1e339d74-fcf1-4a87-8ec2-70ac2cf4659b.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 8284749,
+      "sha256": "7fd669c678fb2ccf1d9e78e197d8c4113fc6a57fd44358929d5143eae92842a7"
+    },
+    {
+      "path": "scene-17/shot-17-59e5624a-09d5-4955-a0ce-0887c412eebe.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 5111385,
+      "sha256": "e1d147f2e8a270282e52ab4743d8efefc6432e1942414fc13166641c93e81cc6"
+    },
+    {
+      "path": "scene-18/shot-18-573a55f2-e51c-4671-9345-7cfff49a8658.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 5688565,
+      "sha256": "487da8b8ab2516b8370effc7832bbb693326ce4a8b267f11d8f52dbfcfca99db"
+    },
+    {
+      "path": "scene-19/shot-19-f5463f82-a90b-43f6-a696-55ad0001215b.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 2476701,
+      "sha256": "1d1b62749b37a06d3ce13d7b1e17e5291d28c4bc6dae965299b438c50f43b954"
+    },
+    {
+      "path": "scene-20/shot-20-4997d6b9-7f38-40e9-be35-163083314e0f.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1828375,
+      "sha256": "3300cf57f65ae2ec1ef0d937bb27a44d8e029399f683e52e262486f477a40710"
+    },
+    {
+      "path": "scene-21/shot-21-c581ec7f-0463-4b48-b319-0632844376d5.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1991014,
+      "sha256": "60a3fab8e778bea007370aad47b398cfe331e45a4f8b2858c6817b935eb8a4e9"
+    },
+    {
+      "path": "scene-22/shot-22-ffaee258-991c-4ba9-928c-10d613ec8466.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1909583,
+      "sha256": "370c4071b90a3a95d7e01fdbbb658791783788692180bd059642dab0d5c1b63e"
+    },
+    {
+      "path": "scene-23/shot-23-0f0b3f97-d3eb-4afb-b076-a2827afc7709.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 2554107,
+      "sha256": "745298cc0ea221742e92ab8dfc43d3035481ed210b09a82cc051198a754c7367"
+    },
+    {
+      "path": "scene-24/shot-24-e48e1f88-b207-4b8c-86e4-e9fb7ea9ac6c.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 2943996,
+      "sha256": "7bc8a595b1959289fe3131d689890de11be8d8d310b462e341e9d6bafac9ed7d"
+    },
+    {
+      "path": "scene-25/shot-25-5bb4b3df-3200-48cc-bed1-a4cf6d6b4fbd.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4219549,
+      "sha256": "4697f26fd6e2a914065c09fd641432ec5d87ce4c694e1ae6160184bd3a3ae2ef"
+    },
+    {
+      "path": "scene-26/shot-26-b0290dae-4416-45f1-814d-57379808d010.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 3207239,
+      "sha256": "fa63306f5d1fefe4963cd60ca1a32b6e5c38c9704a9771f1db1b6a8731ca33d2"
+    },
+    {
+      "path": "scene-27/shot-27-67a25b06-f51f-47b0-82ca-b38f46365520.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 3108578,
+      "sha256": "eae6ab7bfd16cecef45d9273a9f7a5cda08ed4e3398b6860088a4768abbab5ab"
+    },
+    {
+      "path": "scene-28/shot-28-38aec2a2-60fc-4b79-b630-0eeab37ddbb0.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1358671,
+      "sha256": "a07ad56fc385861b83c30e236544d8bf7d554e2a373aae4a90624b421d584aa6"
+    },
+    {
+      "path": "scene-29/shot-29-8c3c6bb4-3540-4857-bfe7-4eea2646baf7.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1973528,
+      "sha256": "235c8874e65ef0cb6aff05f7909b79217ae464b2dc75d0c58d1e565c74c20a06"
+    },
+    {
+      "path": "scene-30/shot-30-a6dcac8f-c800-4d01-a310-c020634444e9.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 1345622,
+      "sha256": "604a966d366648110c4dd934c0bda0a04995f404ac620ea5a3979a399a9d584b"
+    },
+    {
+      "path": "scene-31/shot-31-6db1c6e2-db7f-4c5d-a8f6-dcd81e22aabc.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4044941,
+      "sha256": "92cdbcf405c214968c97ee2a2854d19d9628eaa6dae77aa8886f03f5f4cafea9"
+    },
+    {
+      "path": "scene-32/shot-32-970f1470-c055-475e-a70e-38bcbe9feb76.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 4292352,
+      "sha256": "bea3129d14742676697f603043e2a1936a15bccbd394832d3aa2aeae5b1d165e"
+    },
+    {
+      "path": "scene-33/shot-33-a373faed-2cba-464f-a5ef-de3224ccc2c2.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 2956091,
+      "sha256": "5b2d5c3a6aa22eb1a8ae99f6f9556b3153dd46bb10c2a3daf4f6e54443e062cf"
+    },
+    {
+      "path": "scene-34/shot-34-cb96e8bb-f509-4556-ab3f-12161a0ab0f4.mp4",
+      "kind": "original-flow-clip",
+      "bytes": 3545796,
+      "sha256": "32216344b96e37ef88fa88fd594ac8a2e2c896f58d6c057dbe81302ebe53e0c2"
+    },
+    {
+      "path": "audio/group-01-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 1177934,
+      "sha256": "a1c54f3f7bdca0b2ebd54caf13ef12864ecfc85329f8db6ac66a6711298a6eb3"
+    },
+    {
+      "path": "audio/group-02-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 1442944,
+      "sha256": "000fc13926df297dd956dec1292a7e2ef3b983deb34b4f838e20a3708f60456c"
+    },
+    {
+      "path": "audio/group-03-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 2133404,
+      "sha256": "c31552248ec14cd9126094bb5a4014ed4c2c112ef41ec8a9874f0a8e4deab88b"
+    },
+    {
+      "path": "audio/group-04-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 1218052,
+      "sha256": "ff76f001bac5101ff92a3b354d42bf299111cdf75781ea6478bda0316d75e4b3"
+    },
+    {
+      "path": "audio/group-05-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 1654574,
+      "sha256": "7c393df0244857a9217e9305f109f6116edc540124468e44d50555e8b12dc6f2"
+    },
+    {
+      "path": "audio/group-06-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 2060866,
+      "sha256": "d1d3690072e627e525b4f76929b7a3ca9d88e72a3962010490e5f2d70c039c4c"
+    },
+    {
+      "path": "audio/group-07-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 1475130,
+      "sha256": "23a5d732e251907314e6e6e54bafc7fa6ff7a972e6218d852caffa549f739c43"
+    },
+    {
+      "path": "audio/group-08-heami-rate0.wav",
+      "kind": "rejected-heami-narration",
+      "bytes": 2360056,
+      "sha256": "5f1815d86a987b1cc3992488c79f6ca0e502f69804581741d7cd7dd4382bb86f"
+    },
+    {
+      "path": "555m-롯데월드타워-완성본.mp4",
+      "kind": "rendered-draft-voice-not-approved",
+      "bytes": 118320446,
+      "sha256": "255a8a3585eda96e16376587a7b6a2acabaccb463c945e666b97a4b7e2bbd811"
+    },
+    {
+      "path": "first-scene-with-narration.mp4",
+      "kind": "narrated-preview",
+      "bytes": 5554355,
+      "sha256": "2ede1365f7734502dc185b4eb289e4d8d018ee5ee196a69f49804fdd1206a347"
+    }
+  ]
+}

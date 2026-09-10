@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-10T11:18:56.029Z",
+  "scope": "Local visual QA of completed output slots 24 through 28",
+  "contactSheetManifests": [
+    "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\qa\\contact-sheets-7b7f5f4e-2fd6-4f31-947a-e9e510e204a8.json",
+    "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\qa\\contact-sheets-16f7b57f-7c57-4afc-a99f-1b426605be35.json",
+    "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\qa\\contact-sheets-689e43b3-b1bf-4520-8cc5-14925dcc651d.json"
+  ],
+  "method": {
+    "primaryImagesActuallyViewed": 6,
+    "primaryFramesActuallyViewed": 35,
+    "additionalReferenceImagesActuallyViewed": 2,
+    "additionalReferenceFramesActuallyViewed": 10,
+    "tileResolution": {
+      "width": 384,
+      "height": 216
+    },
+    "fullMotionVerified": false,
+    "audioReviewed": false,
+    "engineeringReferenceComparisonPerformed": false,
+    "limitations": [
+      "24~28번의 각 0초·2.5초·5초·7.5초·9.9초 표본을 실제로 열어 검토했다.",
+      "28번은 닫힘 시점 확인용 10개 추가 표본을 열었다. 25번과 도입부 비교를 위해 슬롯 1·2의 5프레임 접촉시트도 실제로 열었다.",
+      "연속 재생이나 전체 프레임 검토가 아니므로 표본 사이의 짧은 변형·깜빡임·전환은 배제하지 않는다.",
+      "생성 영상의 장비 사양·작업 안전성·실제 공정 또는 역사적 현장 일치를 검증한 것은 아니다."
+    ]
+  },
+  "summary": {
+    "conditionallyUsableAsIllustrationSlots": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "severeSampledFrameBreakageConfirmed": [],
+    "fullMotionReviewPrioritySlots": [
+      26,
+      27
+    ],
+    "crossShotContinuityLimitations": [
+      [
+        27,
+        28
+      ]
+    ],
+    "slot28RecommendedStartSeconds": 0,
+    "slot28SourceInChangeRequired": false,
+    "automaticRegenerationRequested": false
+  },
+  "entries": [
+    {
+      "outputSlot": 24,
+      "sceneNumber": 24,
+      "jobId": "e48e1f88-b207-4b8c-86e4-e9fb7ea9ac6c",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-24\\shot-24-e48e1f88-b207-4b8c-86e4-e9fb7ea9ac6c.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-24\\contact-sheet-e48e1f88-b207-4b8c-86e4-e9fb7ea9ac6c.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 8.1,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "완공 상태의 은색 유리 외벽과 수직 분할선을 따라 카메라 시점이 천천히 이동한다.",
+        "다섯 표본에서 곡면 외벽의 큰 형태가 유지되며 내부가 비치는 엑스레이 단면이나 다른 시공 단계로의 삽입 전환은 관찰되지 않았다.",
+        "오른쪽 아래에 작은 흰색 별 모양 표시가 보인다."
+      ],
+      "editNotes": [
+        "완성된 외관 아래에 여러 구조·시공 기술이 있다는 내레이션의 외관 삽화로 조건부 사용 가능하다.",
+        "정확한 커튼월 패널 수, 내부 구조 위치, 실제 촬영 영상이라고 단정하지 않는다."
+      ]
+    },
+    {
+      "outputSlot": 25,
+      "sceneNumber": 25,
+      "jobId": "5bb4b3df-3200-48cc-bed1-a4cf6d6b4fbd",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-25\\shot-25-5bb4b3df-3200-48cc-bed1-a4cf6d6b4fbd.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-25\\contact-sheet-5bb4b3df-3200-48cc-bed1-a4cf6d6b4fbd.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 9.8,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "미완성 옥상 슬래브 위의 황갈색 격자 크레인과 흐린 도시 배경으로 시작해 크레인 본체 가까이 접근한다.",
+        "표본에서 크레인 본체가 사라지거나 완공 건물로 변하는 삽입 전환은 보이지 않는다.",
+        "실제로 열어 본 도입부 출력 슬롯 1·2와 공사 중 크레인·옅은 도시 배경이라는 소재와 색감은 유사하다. 다만 크레인의 세부 구조와 카메라 위치가 달라 동일한 장비·동일 순간의 반복 촬영이라고 보장할 수 없다."
+      ],
+      "editNotes": [
+        "처음의 크레인 질문으로 돌아가는 독립 재현 컷으로 사용 가능하다.",
+        "도입부와 픽셀 단위로 일치하는 장비나 실제 특정 높이의 현장이라는 주장 없이 설명용 영상으로 사용한다."
+      ],
+      "continuityComparison": {
+        "referenceOutputSlots": [
+          1,
+          2
+        ],
+        "referenceContactSheets": [
+          "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-01\\contact-sheet-14826cca-e4b1-47c6-ab4b-05b42872b2f8.jpg",
+          "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-02\\contact-sheet-abcd720b-483b-4ed8-9378-6eaef98270f6.jpg"
+        ],
+        "referenceImagesActuallyViewed": true,
+        "broadThemeAndColorComparable": true,
+        "exactMachineIdentityVerified": false
+      }
+    },
+    {
+      "outputSlot": 26,
+      "sceneNumber": 26,
+      "jobId": "b0290dae-4416-45f1-814d-57379808d010",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-26\\shot-26-b0290dae-4416-45f1-814d-57379808d010.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-26\\contact-sheet-b0290dae-4416-45f1-814d-57379808d010.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 10,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "보조 크레인의 후크 아래 두 갈래 슬링에 이미 분리된 격자 부재 하나가 매달려 있다.",
+        "다섯 표본에서 부재가 대체로 수평을 유지하며 아래로 이동하고, 부재 위쪽 후크와 슬링 연결이 보인다.",
+        "완성된 크레인 전체가 갑자기 축소되거나 부품이 지지 없이 공중에 떠 있는 심한 오류는 표본에서 확인되지 않았다.",
+        "끝부분에서 부재가 작업층 난간 아래쪽으로 내려가 보이지만 표본만으로 실제 접지·거치 완료나 건물과의 간섭을 검증하지는 않았다."
+      ],
+      "editNotes": [
+        "이미 분해한 부품을 작은 장비로 내리는 원리를 보조하는 재현 컷으로 조건부 사용한다.",
+        "대형→중형→소형 전체 해체 과정, 현장의 특정 층·기종·슬링 사양을 한 컷에서 검증한 것으로 소개하지 않는다.",
+        "연속 재생 검수에서는 슬링의 긴장·부재와 난간의 교차·하강 속도 변화가 부자연스럽지 않은지 확인하는 편이 좋다."
+      ],
+      "fullMotionReviewPriority": "higher_for_cable_load_and_platform_interaction"
+    },
+    {
+      "outputSlot": 27,
+      "sceneNumber": 27,
+      "jobId": "67a25b06-f51f-47b0-82ca-b38f46365520",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-27\\shot-27-67a25b06-f51f-47b0-82ca-b38f46365520.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-27\\contact-sheet-67a25b06-f51f-47b0-82ca-b38f46365520.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 8.333333333333334,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "노란 끈으로 묶은 해체 부품을 실은 네 바퀴 카트가 격자문이 열린 작업용 승강기 쪽으로 이동한다.",
+        "카트를 미는 사람의 팔과 손잡이가 보이며, 표본에서 부품이 공중에 뜨거나 문을 뚫고 통과하는 큰 오류는 확인되지 않았다.",
+        "표본 사이에서 바퀴와 카트의 상대 배치가 대체로 유지되지만 문턱을 넘는 실제 바퀴 접촉과 사람 손 동작은 연속 재생으로 확인하지 않았다.",
+        "뒤의 28번 컷은 카트 모양·부품 고정 방식·승강기 문 형태가 다르므로 엄밀한 동작 연결은 성립하지 않는다."
+      ],
+      "editNotes": [
+        "분해된 소형 장비를 건물 내부 승강기로 운반한다는 설명용 삽화로 조건부 사용한다.",
+        "27→28은 서로 다른 재현 컷을 잇는 설명 편집으로 취급하고, 동일한 카트·동일한 승강기의 연속 실사 동작이라고 단정하지 않는다."
+      ],
+      "continuityLimitationWithNextShot": {
+        "nextOutputSlot": 28,
+        "observedDifferences": [
+          "27번의 노란 끈으로 묶은 부품 카트가 28번에서는 작은 2단 카트로 달라진다.",
+          "27번의 격자형 승강기 문과 거친 공사장 외관이 28번의 금속 양개문과 실내 벽으로 달라진다."
+        ],
+        "samePhysicalCartOrElevatorVerified": false
+      }
+    },
+    {
+      "outputSlot": 28,
+      "sceneNumber": 28,
+      "jobId": "38aec2a2-60fc-4b79-b630-0eeab37ddbb0",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-28\\shot-28-38aec2a2-60fc-4b79-b630-0eeab37ddbb0.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-28\\contact-sheet-38aec2a2-60fc-4b79-b630-0eeab37ddbb0.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 5.333333333333333,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "작은 부품을 실은 카트가 승강기 안쪽에 있는 상태에서 금속 양개문이 중앙을 향해 닫힌다.",
+        "기본 다섯 표본의 5.0초·7.5초·9.9초에서 문이 중앙까지 닫힌 모습이 보인다.",
+        "추가 표본 4.5초에는 문 사이 틈이 남고 5.0초·5.3초에서는 닫힌 상태다. 정확한 완전 폐쇄 프레임을 찾은 것은 아니며 이 표본 간격으로만 시점을 좁혔다.",
+        "표본에서 문이 카트나 부품을 관통하거나 닫힘 후 다른 장면으로 전환되는 심한 오류는 보이지 않는다.",
+        "27번과 카트 및 승강기 디자인이 달라 동일 동작을 끊김 없이 잇는 장면으로는 고증되지 않는다."
+      ],
+      "editNotes": [
+        "기존 0초 시작·160프레임(5.333333초) 편집을 유지해도 닫힘 완료가 포함된다.",
+        "5.0초부터 최종 편집 끝까지 약 0.333333초의 닫힌 문 구간이 확보되므로 필수 sourceIn 변경은 없다.",
+        "동일 승강기·동일 카트의 연속 기록이 아닌, 엘리베이터 운반이라는 원리를 마무리하는 별도 AI 재현 컷으로 사용한다."
+      ],
+      "closureTiming": {
+        "additionalContactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-28\\closure-timing-38aec2a2-60fc-4b79-b630-0eeab37ddbb0.jpg",
+        "additionalManifest": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-28\\closure-timing-38aec2a2-60fc-4b79-b630-0eeab37ddbb0.json",
+        "requestedTimesSeconds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4.25,
+          4.5,
+          4.75,
+          5,
+          5.3
+        ],
+        "additionalFramesActuallyViewed": 10,
+        "lastClearlyOpenSampleSeconds": 4.5,
+        "firstClearlyClosedSampleSeconds": 5,
+        "exactClosureFrameVerified": false,
+        "recommendedStartSeconds": 0,
+        "recommendedDurationSeconds": 5.333333333333333,
+        "closedStateVisibleBySeconds": 5,
+        "closedStateTimeAvailableBeforePlannedEndSeconds": 0.33333333333333304,
+        "sourceInChangeRequired": false,
+        "recommendationApplied": false
+      }
+    }
+  ],
+  "execution": {
+    "flowCalls": 0,
+    "queueModified": false,
+    "promptsModified": false,
+    "sourceVideosModified": false,
+    "weightsModified": false,
+    "contactSheetsCreated": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "extraTimingSheetCreatedForSlot": 28
+  }
+}

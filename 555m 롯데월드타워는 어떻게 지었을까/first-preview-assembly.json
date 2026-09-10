@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "output": "first-scene-with-narration.mp4",
+  "workDir": "assembly-test-001",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "groups": [
+    {
+      "id": "test",
+      "audio": "audio/test-narration-10s.wav",
+      "shots": [
+        {
+          "video": "scene-01\\shot-02-14826cca-e4b1-47c6-ab4b-05b42872b2f8.mp4",
+          "weight": 1,
+          "startSeconds": 0
+        }
+      ]
+    }
+  ]
+}

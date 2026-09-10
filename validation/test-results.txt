@@ -1,0 +1,10 @@
+2026-09-10 local validation
+Baseline: upstream 0.2.3 / 6826452a4a2e93bf7313d1be1626a9034fd7dc27
+Baseline npm ci + npm run check: 33 passed, 0 failed.
+Validation copy npm run check with FLOW_TEST_BROWSER_EXECUTABLE set to the actual Whale binary:
+39 tests, 39 passed, 0 failed, 0 skipped. Duration 33254.9806 ms.
+Includes local about:blank Korean DOM fixtures, actual duration tab selection, persistent Job IDs on failure, exact-media no-overwrite writes, and required credit confirmation schema checks.
+Not a real Flow generation test; credits spent: 0.
+ffprobe: C:/ProgramData/chocolatey/bin/ffprobe.exe exists.
+Original installation git status --porcelain: empty.
+Final revision: npm run check passed. 39 tests, 39 passed, 0 failed, 0 skipped. Duration 32522.9798 ms. Full output: final-test-output.txt.

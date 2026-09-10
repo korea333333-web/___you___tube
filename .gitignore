@@ -1,0 +1,49 @@
+# Dependencies and local runtime state
+**/node_modules/
+**/dist/
+**/coverage/
+**/.flow-mcp-data/
+.local/
+**/.env
+**/.env.*
+!**/.env.example
+*.tsbuildinfo
+
+# Private/raw runtime captures and temporary test outputs
+validation/*
+!validation/REPOSITORY-VERIFICATION.md
+!validation/PROJECT-VERIFICATION.md
+!validation/LIVE-SETTINGS-VERIFICATION.md
+!validation/test-results.txt
+**/production-runs/
+**/document-sync-backups/
+**/generation-queue.json
+**/scene-*/*.json
+**/*.flow.json
+**/assembly-test-*/
+**/groups.ffconcat
+**/qa/contact-sheets-*.json
+*.log
+
+# Generated media is retained locally; see MEDIA-INVENTORY.json
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.nut
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.zip
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

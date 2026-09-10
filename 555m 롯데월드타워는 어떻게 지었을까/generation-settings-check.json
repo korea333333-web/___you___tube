@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-09-10T09:32:10.330Z",
+  "source": "development Flow MCP SDK session 26178, flow_validate_generation_settings",
+  "status": "settings_verified",
+  "selected": {
+    "mediaType": "video",
+    "model": "omni-1-1-flash",
+    "aspectRatio": "16:9",
+    "durationSeconds": 10,
+    "outputs": 1
+  },
+  "generationSubmitted": false,
+  "jobCreated": false,
+  "originalSettingsRestored": true,
+  "exactCreditCost": null,
+  "screenshot": "C:\\Users\\kikuke\\AppData\\Local\\flow-mcp-youtube-validation\\diagnostics\\validated-settings-chromium-81625f29ad90.png",
+  "note": "flow_inspect_account had a panel-opening issue; its fix and reinspection are in progress."
+}

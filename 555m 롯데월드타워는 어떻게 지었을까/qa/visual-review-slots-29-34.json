@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-10T11:19:59.953Z",
+  "status": "completed",
+  "slotRange": [
+    29,
+    34
+  ],
+  "method": "완료된 각 Job의 실제 다운로드 MP4에서 5개 프레임 접촉시트를 생성한 뒤 실제 이미지를 열어 장면 설명·내레이션·실제 영어 프롬프트와 대조했다. 29/30 모형 연결성을 비교하고, 33/34 큰 외형은 로컬 KPF 참고 사진과 육안 비교했다. 편집 길이는 drafts/lotte-world-tower/edit-shot-weights.json을 읽어 기록했다.",
+  "sampleTimesSeconds": [
+    0,
+    2.5,
+    5,
+    7.5,
+    9.9
+  ],
+  "sampleImageSize": {
+    "width": 384,
+    "height": 216
+  },
+  "overallConclusion": "29~34번 모두 확인한 표본 범위에서 설명용 AI 재현·비유 장면으로 사용 가능하다. 즉시 제외해야 할 심각한 형태 오류는 관찰하지 못했으나, 29/30 모형·탁상은 동일 물체의 연속 촬영으로 보기 어렵고, 33번 생성 입구에 프롬프트와 달리 로고·문자 표식이 존재한다. 두 제약을 명시한 상태로 편집 판단해야 한다.",
+  "limitations": [
+    "각 10초 영상의 5개 정지 표본만 실제 열람했다. 연속 재생 검토를 수행하지 않았으므로 표본 사이 깜빡임·형태 변형·컷 점프·운동 물리 오류를 배제할 수 없다.",
+    "384×216 프레임 표본이므로 작은 구조 부재·문자·미세한 오류 판단에는 한계가 있다.",
+    "실제 과거 공사 기록이나 인증된 설계물·회사 사무실을 확인한 것이 아니라 AI 재현·설명 비유로 검토했다.",
+    "음성과 내레이션 품질·발화에 맞춘 컷 및 끝 페이드 동기화는 이번 검토 범위에 포함하지 않았다.",
+    "KPF 참고 사진은 큰 외형 검토에만 사용했으며 본편에 삽입하지 않았다.",
+    "계획된 소스 종료 시각과 정확히 일치하는 별도 프레임은 추출하지 않았다. 34번 9.3초 편집 끝과 페이드 마감은 최종 영상에서 별도 확인해야 한다."
+  ],
+  "globalObservations": [
+    "표본 우측 하단의 작은 반짝임 모양 표식이 보인다. 원본이나 표식에 대한 변경은 수행하지 않았다.",
+    "29/30은 같은 협업 주제의 별도 예시 모형으로 취급한다. 같은 물체를 다른 각도에서 촬영한 연속 장면으로 설명하지 않는다.",
+    "완공 타워의 큰 실루엣이 대체로 대응하는 것과 실제 입구·창 배열·도시 배치가 정확하다는 주장은 구별해야 한다."
+  ],
+  "reviews": [
+    {
+      "outputSlot": 29,
+      "sceneNumber": 29,
+      "jobId": "8c3c6bb4-3540-4857-bfe7-4eea2646baf7",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "정돈된 탁상 위의 닫힌 회색 도면철과 표기 없는 단순 테이퍼형 모형을 옆으로 이동하며 보여준다. 시작·끝 표본은 도면철 위주이고 중간 표본에 회색 모형이 선명하게 들어온다. 큰 물체가 변형되거나 부유하는 모습은 표본에서 없다.",
+      "issues": [],
+      "editorialNote": "주 시공·설계 역할을 소개하는 일반 검토실 비유로 사용 가능하다. 7.367초 편집 범위에도 중간 모형 표본이 포함된다. 실제 회사 사무실·도면·검증된 타워 모형으로 설명하지 않는다.",
+      "plannedEdit": {
+        "sourceInSeconds": 0,
+        "durationSeconds": 7.366666666666666
+      },
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-29\\shot-29-8c3c6bb4-3540-4857-bfe7-4eea2646baf7.mp4",
+      "sourceBytes": 1973528,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-29\\contact-sheet-8c3c6bb4-3540-4857-bfe7-4eea2646baf7.jpg"
+    },
+    {
+      "outputSlot": 30,
+      "sceneNumber": 30,
+      "jobId": "a6dcac8f-c800-4d01-a310-c020634444e9",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned_with_continuity_constraint",
+      "description": "창가의 빈 밝은 탁상에 놓인 표기 없는 흰색 사각 테이퍼 모형으로 카메라가 가까워진다. 표본에서 모형은 고정되어 있고 큰 형태가 일관되며, 7.5초 부근에는 확대되어 상부가 화면 밖으로 나간다.",
+      "issues": [
+        "29번 모형의 아래쪽으로 휘는 곡면·회색 재질·도면철과 목재 무늬 탁상에 비해 30번은 곧은 사선 면의 흰 모형·얇은 받침판·빈 밝은 탁상이다. 동일한 물체·장소의 연속 촬영으로 보기에는 차이가 있다."
+      ],
+      "editorialNote": "같은 협업 설명 안의 별도 설계 연구 모형 비유로 사용 가능하다. 동일 모형을 다른 각도에서 촬영한 매치 컷이나 실제 KPF·LERA 설계물이라고 설명하지 않는다. 확대에 따른 정상 프레이밍 변화는 보이나 표본 사이의 움직임은 연속 검토하지 않았다.",
+      "plannedEdit": {
+        "sourceInSeconds": 0,
+        "durationSeconds": 7.5
+      },
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-30\\shot-30-a6dcac8f-c800-4d01-a310-c020634444e9.mp4",
+      "sourceBytes": 1345622,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-30\\contact-sheet-a6dcac8f-c800-4d01-a310-c020634444e9.jpg"
+    },
+    {
+      "outputSlot": 31,
+      "sceneNumber": 31,
+      "jobId": "6db1c6e2-db7f-4c5d-a8f6-dcd81e22aabc",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "두꺼운 콘크리트 벽과 고정된 철골 기둥·대각재 사이의 미완성 고층 통로를 전진한다. 표본에서 외곽 난간, 바닥, 철골의 지지 관계가 큰 틀에서 이어지고 부재가 떠 있거나 무너지는 모습은 없다.",
+      "issues": [],
+      "editorialNote": "국내 시공진이 설계를 현실 구조로 구현한다는 설명의 일반 현장 재현으로 사용 가능하다. 특정 실제 시공 장소나 정확한 접합 상세·공법의 기술 검증 자료로 쓰지 않는다.",
+      "plannedEdit": {
+        "sourceInSeconds": 0,
+        "durationSeconds": 10
+      },
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-31\\shot-31-6db1c6e2-db7f-4c5d-a8f6-dcd81e22aabc.mp4",
+      "sourceBytes": 4044941,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-31\\contact-sheet-6db1c6e2-db7f-4c5d-a8f6-dcd81e22aabc.jpg"
+    },
+    {
+      "outputSlot": 32,
+      "sceneNumber": 32,
+      "jobId": "970f1470-c055-475e-a70e-38bcbe9feb76",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "미완성 실내의 목재 받침 위 철골, 묶인 가는 자재, 판재와 블록 등 정리된 자재를 낮은 시점으로 옆에서 훑는다. 표본에서 적재물이 고정되어 있고 통로 바닥과 주요 자재 형태가 대체로 유지된다.",
+      "issues": [],
+      "editorialNote": "자재·장비·공정을 연결하는 현장 역량의 일반적인 자재 준비 예시로 사용 가능하다. 실제 타워의 부품 목록이나 공정 기록으로 설명하지 않는다. 작은 부착 표식의 내용은 표본 해상도에서 판독하지 않았다.",
+      "plannedEdit": {
+        "sourceInSeconds": 0,
+        "durationSeconds": 9.366666666666667
+      },
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-32\\shot-32-970f1470-c055-475e-a70e-38bcbe9feb76.mp4",
+      "sourceBytes": 4292352,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-32\\contact-sheet-970f1470-c055-475e-a70e-38bcbe9feb76.jpg"
+    },
+    {
+      "outputSlot": 33,
+      "sceneNumber": 33,
+      "jobId": "a373faed-2cba-464f-a5ef-de3224ccc2c2",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned_with_generated_signage_constraint",
+      "description": "완공된 건물 입구 쪽에서 위로 올려다보며 상부를 드러낸다. 아래가 넓고 위로 좁아지는 큰 윤곽과 갈라진 상부 마감이 KPF 참고 사진의 주요 특징에 대체로 대응하며, 표본에서 눈에 띄는 휨·외벽 붕괴는 보이지 않는다.",
+      "issues": [
+        "첫 표본의 입구 양쪽에 LOTTE WORLD 계열로 보이는 로고·문자 표식이 생성되어 프롬프트의 읽을 수 있는 문자·로고 금지와 일치하지 않는다. 세부 표기 및 실제 입구 배치의 정확성은 확인하지 못했다.",
+        "지상 시점의 실제 입구·외벽 전체 배치와 창 배열을 참고 사진 한 장으로 인증할 수 없다."
+      ],
+      "editorialNote": "완공 타워를 다시 올려다보는 설명용 AI 재현으로 사용 가능하되, 생성된 입구 표식이나 실제 현장 기록의 정확성을 보증하지 않는다. 10초 전체 사용 계획이며 큰 원근 수렴은 저각 촬영에 맞는 것으로 보인다.",
+      "plannedEdit": {
+        "sourceInSeconds": 0,
+        "durationSeconds": 10
+      },
+      "referenceComparison": {
+        "sourcePage": "https://www.kpf.com/project/lotte-world-tower",
+        "localImage": "qa/kpf-exterior-inspection-reference.webp",
+        "scope": "큰 테이퍼·상부 마감의 육안 비교. 지상 입구의 사실성 검증은 아님. 본편 미사용."
+      },
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-33\\shot-33-a373faed-2cba-464f-a5ef-de3224ccc2c2.mp4",
+      "sourceBytes": 2956091,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-33\\contact-sheet-a373faed-2cba-464f-a5ef-de3224ccc2c2.jpg"
+    },
+    {
+      "outputSlot": 34,
+      "sceneNumber": 34,
+      "jobId": "cb96e8bb-f509-4556-ab3f-12161a0ab0f4",
+      "usable": true,
+      "severeVisualErrorObserved": false,
+      "narrationFit": "aligned",
+      "description": "푸른 저녁 하늘과 도시를 배경으로 완공 타워를 중심에 둔 원경이 천천히 넓어진다. 표본에서 테이퍼형 윤곽과 갈라진 상부, 완공 상태 및 저녁 조명이 유지되며 건물이 자라거나 변형되는 모습은 없다. 마지막 표본도 중심 타워와 도시가 정돈된 구도이다.",
+      "issues": [
+        "도시·호수·주변 건물 배치와 외벽 조명의 정확성은 이 비교에서 확인하지 못했다."
+      ],
+      "editorialNote": "완공 전경으로 과정을 정리하는 결말 샷으로 사용 가능하다. 9.3초 종료 계획은 7.5초와 9.9초 표본 사이이므로 정확한 편집 끝 프레임·페이드와 마지막 발화는 최종 조립 영상에서 따로 확인해야 한다. 본 원본에는 별도 페이드를 적용하지 않았다.",
+      "plannedEdit": {
+        "sourceInSeconds": 0,
+        "durationSeconds": 9.3
+      },
+      "referenceComparison": {
+        "sourcePage": "https://www.kpf.com/project/lotte-world-tower",
+        "localImage": "qa/kpf-exterior-inspection-reference.webp",
+        "scope": "큰 테이퍼·상부 마감의 육안 비교. 주변 도시나 조명 정확성 검증은 아님. 본편 미사용."
+      },
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-34\\shot-34-cb96e8bb-f509-4556-ab3f-12161a0ab0f4.mp4",
+      "sourceBytes": 3545796,
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-34\\contact-sheet-cb96e8bb-f509-4556-ab3f-12161a0ab0f4.jpg"
+    }
+  ]
+}

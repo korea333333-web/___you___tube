@@ -1,0 +1,399 @@
+{
+  "manifestPath": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\assembly.json",
+  "root": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube",
+  "output": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\555m-롯데월드타워-완성본.mp4",
+  "workDir": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\assembly-final-001",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "groups": [
+    {
+      "id": "group-01",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-01-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 26.709478,
+      "duration": 26.733333333333334,
+      "frames": 802,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-02\\shot-01-abcd720b-483b-4ed8-9378-6eaef98270f6.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-01\\shot-02-14826cca-e4b1-47c6-ab4b-05b42872b2f8.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-03\\shot-03-925ad49f-abc3-4d0e-9b24-c9264b8b0cf2.mp4",
+          "weight": 202,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 202,
+          "duration": 6.733333333333333
+        }
+      ]
+    },
+    {
+      "id": "group-02",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-02-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 32.718776,
+      "duration": 32.733333333333334,
+      "frames": 982,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-04\\shot-04-26d65252-2d59-489b-950f-0b19cac80d0a.mp4",
+          "weight": 247,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 247,
+          "duration": 8.233333333333333
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-05\\shot-05-21a39818-71e2-4baa-bb52-00dec75da98d.mp4",
+          "weight": 137,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 137,
+          "duration": 4.566666666666666
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-06\\shot-06-e91dd5fb-5fee-41d1-998b-468bd4a79109.mp4",
+          "weight": 298,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 298,
+          "duration": 9.933333333333334
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-07\\shot-07-eab382f2-e6a5-4a2b-bc5a-05bacc2d457d.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        }
+      ]
+    },
+    {
+      "id": "group-03",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-03-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 48.375465,
+      "duration": 48.4,
+      "frames": 1452,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-08\\shot-08-196b24d5-140a-4004-8742-ab184a320b54.mp4",
+          "weight": 283,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 283,
+          "duration": 9.433333333333334
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-09\\shot-09-3c029f79-652f-4c82-b531-32e7baa7d590.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-10\\shot-10-4daab625-e2a0-49ed-9a17-85f9ee344a22.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-11\\shot-11-c049485e-eb3d-43e1-80b6-761ff4ee4018.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-12\\shot-12-a5e8c090-12bd-4b1c-8b71-59ed160e42c2.mp4",
+          "weight": 269,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 269,
+          "duration": 8.966666666666667
+        }
+      ]
+    },
+    {
+      "id": "group-04",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-04-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 27.619184,
+      "duration": 27.633333333333333,
+      "frames": 829,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-13\\shot-13-6d7c0a16-5483-41f1-976e-1566396de003.mp4",
+          "weight": 296,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 296,
+          "duration": 9.866666666666667
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-14\\shot-14-9aa50953-995f-41b0-965d-bbce7739c5e1.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-15\\shot-15-4d6493f2-a8d2-4054-af8b-4b19246f9d6b.mp4",
+          "weight": 233,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 233,
+          "duration": 7.766666666666667
+        }
+      ]
+    },
+    {
+      "id": "group-05",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-05-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 37.517642,
+      "duration": 37.53333333333333,
+      "frames": 1126,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-16\\shot-16-1e339d74-fcf1-4a87-8ec2-70ac2cf4659b.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-17\\shot-17-59e5624a-09d5-4955-a0ce-0887c412eebe.mp4",
+          "weight": 228,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 228,
+          "duration": 7.6
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-18\\shot-18-573a55f2-e51c-4671-9345-7cfff49a8658.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-19\\shot-19-f5463f82-a90b-43f6-a696-55ad0001215b.mp4",
+          "weight": 298,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 298,
+          "duration": 9.933333333333334
+        }
+      ]
+    },
+    {
+      "id": "group-06",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-06-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 46.730612,
+      "duration": 46.733333333333334,
+      "frames": 1402,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-20\\shot-20-4997d6b9-7f38-40e9-be35-163083314e0f.mp4",
+          "weight": 275,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 275,
+          "duration": 9.166666666666666
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-21\\shot-21-c581ec7f-0463-4b48-b319-0632844376d5.mp4",
+          "weight": 291,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 291,
+          "duration": 9.7
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-22\\shot-22-ffaee258-991c-4ba9-928c-10d613ec8466.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-23\\shot-23-0f0b3f97-d3eb-4afb-b076-a2827afc7709.mp4",
+          "weight": 293,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 293,
+          "duration": 9.766666666666667
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-24\\shot-24-e48e1f88-b207-4b8c-86e4-e9fb7ea9ac6c.mp4",
+          "weight": 243,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 243,
+          "duration": 8.1
+        }
+      ]
+    },
+    {
+      "id": "group-07",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-07-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 33.448617,
+      "duration": 33.46666666666667,
+      "frames": 1004,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-25\\shot-25-5bb4b3df-3200-48cc-bed1-a4cf6d6b4fbd.mp4",
+          "weight": 294,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 294,
+          "duration": 9.8
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-26\\shot-26-b0290dae-4416-45f1-814d-57379808d010.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-27\\shot-27-67a25b06-f51f-47b0-82ca-b38f46365520.mp4",
+          "weight": 250,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 250,
+          "duration": 8.333333333333334
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-28\\shot-28-38aec2a2-60fc-4b79-b630-0eeab37ddbb0.mp4",
+          "weight": 160,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 160,
+          "duration": 5.333333333333333
+        }
+      ]
+    },
+    {
+      "id": "group-08",
+      "audio": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\audio\\group-08-heami-rate0.wav",
+      "audioStreamIndex": 0,
+      "narrationDuration": 53.514966,
+      "duration": 53.53333333333333,
+      "frames": 1606,
+      "shots": [
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-29\\shot-29-8c3c6bb4-3540-4857-bfe7-4eea2646baf7.mp4",
+          "weight": 221,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 221,
+          "duration": 7.366666666666666
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-30\\shot-30-a6dcac8f-c800-4d01-a310-c020634444e9.mp4",
+          "weight": 225,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 225,
+          "duration": 7.5
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-31\\shot-31-6db1c6e2-db7f-4c5d-a8f6-dcd81e22aabc.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-32\\shot-32-970f1470-c055-475e-a70e-38bcbe9feb76.mp4",
+          "weight": 281,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 281,
+          "duration": 9.366666666666667
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-33\\shot-33-a373faed-2cba-464f-a5ef-de3224ccc2c2.mp4",
+          "weight": 300,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 300,
+          "duration": 10
+        },
+        {
+          "video": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-34\\shot-34-cb96e8bb-f509-4556-ab3f-12161a0ab0f4.mp4",
+          "weight": 279,
+          "startSeconds": 0,
+          "sourceDuration": 10,
+          "videoStreamIndex": 0,
+          "frames": 279,
+          "duration": 9.3
+        }
+      ]
+    }
+  ],
+  "duration": 306.76666666666665,
+  "narrationDuration": 306.63474
+}

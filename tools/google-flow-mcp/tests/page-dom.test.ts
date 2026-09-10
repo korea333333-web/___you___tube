@@ -1,0 +1,96 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import { chromium, type Page } from "playwright";
+import { FlowAdapter } from "../src/flow-adapter.js";
+import { dismissFlowCookieNotice, hasFlowWorkspace, isFlowSignedIn } from "../src/page-access.js";
+
+// Local HTML fixtures only. No live Flow URL, login session or Google network request is used.
+test("Korean dashboard DOM works while avatars and hidden controls do not prove access", {skip:!process.env.FLOW_TEST_BROWSER_EXECUTABLE}, async context=>{
+  const browser=await chromium.launch({executablePath:process.env.FLOW_TEST_BROWSER_EXECUTABLE!,headless:true});
+  context.after(()=>browser.close());
+  const page=await browser.newPage();
+  await page.route("**/*",route=>route.abort());
+  let reportedUrl="https://flow.google.com/";
+  const fixture=new Proxy(page,{get(target,key){if(key==="url")return ()=>reportedUrl;const value=Reflect.get(target,key);return typeof value==="function"?value.bind(target):value;}}) as Page;
+  await page.setContent('<html lang="ko"><button>+ 새 프로젝트</button><button aria-label="Google 계정"><span>프로필</span></button></html>');
+  assert.equal(await hasFlowWorkspace(fixture),true);
+  assert.equal(await isFlowSignedIn(fixture),true);
+  await page.setContent('<button aria-label="Google 계정">프로필</button><button style="display:none">새 프로젝트</button>');
+  assert.equal(await hasFlowWorkspace(fixture),false);
+  assert.equal(await isFlowSignedIn(fixture),true);
+  await page.setContent('<button>로그인</button>');
+  assert.equal(await hasFlowWorkspace(fixture),false);
+  assert.equal(await isFlowSignedIn(fixture),false);
+  await page.setContent('<a href="/project/p1">Existing project</a>');
+  assert.equal(await hasFlowWorkspace(fixture),true);
+  await page.setContent('<div contenteditable="true" data-placeholder="무엇을 만들고 싶으신가요?"></div>');
+  await page.locator('[contenteditable]').fill('Local fixture text only');
+  assert.equal(await hasFlowWorkspace(fixture),true);
+  const adapter = new FlowAdapter({} as never, {} as never, {} as never) as unknown as {
+    readAgentSettings(page:Page):Promise<{durationSeconds:number[]}>;
+    chooseAgentTab(page:Page,requested:string,media:string,label:string,group:(text:string)=>boolean,choice:(text:string)=>boolean):Promise<void>;
+  };
+  await page.setContent('<p>Video · 8s</p><p>Advert: 10 seconds</p>');
+  assert.deepEqual((await adapter.readAgentSettings(page)).durationSeconds, []);
+  await page.setContent('<div role="tablist"><button role="tab" onclick="this.dataset.chosen=1">8초</button><button role="tab">12초</button></div>');
+  assert.deepEqual((await adapter.readAgentSettings(page)).durationSeconds, [8,12]);
+  await adapter.chooseAgentTab(page,"8","video","duration",text=>/초/.test(text),text=>text==="8초");
+  assert.equal(await page.getByRole("tab",{name:"8초",exact:true}).getAttribute("data-chosen"),"1");
+  await page.setContent('<button>새 프로젝트</button><div role="region" id="glue-cookie-notification-bar-1"><button onclick="document.body.dataset.accepted=1">동의함</button><button onclick="this.parentElement.remove()">나중에</button></div>');
+  await dismissFlowCookieNotice(fixture);
+  assert.equal(await page.locator('[role="region"]').count(),0);
+  assert.equal(await page.locator("body").getAttribute("data-accepted"),null);
+  await page.setContent('<div role="region" id="glue-cookie-notification-bar-2"><button onclick="document.body.dataset.accepted=1">동의함</button></div>');
+  await assert.rejects(dismissFlowCookieNotice(fixture),/No consent was given/);
+  assert.equal(await page.locator("body").getAttribute("data-accepted"),null);
+  reportedUrl="https://example.com/";
+  await page.setContent('<textarea></textarea><button>새 프로젝트</button>');
+  assert.equal(await hasFlowWorkspace(fixture),false);
+});
+
+
+test("observed video detail workspace requires its route, real player surface and visible header controls", {skip:!process.env.FLOW_TEST_BROWSER_EXECUTABLE}, async context=>{
+  const browser=await chromium.launch({executablePath:process.env.FLOW_TEST_BROWSER_EXECUTABLE!,headless:true});
+  context.after(()=>browser.close());
+  const page=await browser.newPage();
+  await page.route("**/*",route=>route.abort());
+  const detailUrl="https://flow.google.com/project/2e45dc1f-bc2b-411e-926c-10aaaed91745/edit/c83c80ac-1649-4755-b920-8fcc4dda1418";
+  let reportedUrl=detailUrl;
+  const fixture=new Proxy(page,{get(target,key){if(key==="url")return ()=>reportedUrl;const value=Reflect.get(target,key);return typeof value==="function"?value.bind(target):value;}}) as Page;
+  const buttons=["이전 페이지로 이동하는 뒤로 버튼","애셋 정보 표시","옵션 더보기","기록 표시/숨기기","수정 완료"];
+  const header='<flow-editor-header><flow-navigation-header>'+buttons.map(name=>'<button aria-label="'+name+'" onclick="document.body.dataset.clicked=1">control</button>').join('')+'</flow-navigation-header></flow-editor-header>';
+  const video='<video aria-label="AI 생성 동영상" class="main-video" width="640" height="360" src="https://flow-content.google/video/4a3030e5-b52c-4ba2-8f5d-1e369356cba5?Signature=local-fixture"></video>';
+  const html='<flow-editor-dispatcher><flow-editor-page>'+header+'<flow-video-editor><div class="main-video-container"><div class="video-wrapper">'+video+'</div></div></flow-video-editor></flow-editor-page></flow-editor-dispatcher>';
+  const check=async(expected:boolean)=>{
+    assert.equal(await hasFlowWorkspace(fixture),expected);
+    assert.equal(await isFlowSignedIn(fixture),expected);
+  };
+  await page.setContent(html);
+  await check(true);
+  assert.equal(await page.locator('body').getAttribute('data-clicked'),null,'Access classification must not click viewer controls');
+  await page.setContent('<a href="'+detailUrl+'">Skip to main content</a>');
+  await check(false);
+  await page.setContent(html.replace('class="main-video"','class="main-video" style="display:none"'));
+  await check(false);
+  await page.setContent(html);
+  await page.getByRole('button',{name:'애셋 정보 표시',exact:true}).evaluate(element=>element.remove());
+  await check(false);
+  await page.setContent(html.replace('flow-editor-dispatcher','unrelated-container').replace('</flow-editor-dispatcher>','</unrelated-container>'));
+  await check(false);
+  await page.setContent(html.replace('https://flow-content.google/video/','https://example.com/video/'));
+  await check(false);
+  await page.setContent(html.replace(/ src="[^"]*"/,''));
+  await check(false);
+  await page.setContent(html+'<button>로그인</button><a href="'+detailUrl+'">Skip to main content</a>');
+  await check(false);
+  await page.setContent(html+'<button style="display:none">로그인</button>');
+  await check(true);
+  await page.setContent(html);
+  reportedUrl=detailUrl.replace('flow.google.com','flow.google.com.example.test');
+  await check(false);
+  reportedUrl='https://flow.google.com/';
+  await check(false);
+  reportedUrl=detailUrl;
+  await page.setContent('<button aria-label="Google 계정">프로필</button>');
+  assert.equal(await hasFlowWorkspace(fixture),false,'Avatar alone still cannot prove detail workspace access');
+});

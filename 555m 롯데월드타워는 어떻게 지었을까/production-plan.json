@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "status": "complete",
+  "title": "555m 롯데월드타워는 어떻게 지었을까",
+  "sourceVideoModel": "omni-1-1-flash",
+  "narration": {
+    "engine": "Microsoft Heami Desktop",
+    "rate": 0,
+    "voiceStatus": "consistent_local_female_voice_prepared_agent_review_authorized",
+    "durationSeconds": 306.63474
+  },
+  "plannedShots": 34,
+  "requestedSecondsPerShot": 10,
+  "aspectRatio": "16:9",
+  "paidGenerationApproved": true,
+  "testOutputs": 1,
+  "remainingOutputsPendingApproval": 0,
+  "exactFlowCreditCost": null,
+  "assemblyUtility": "scripts/assemble-narrated-video.mjs",
+  "localSyntheticAssemblyTests": {
+    "passed": 5,
+    "actualFlowMediaTested": true
+  },
+  "assemblyManifestBinding": "Bind exact downloaded Job IDs and paths only after generation; no invented video filenames.",
+  "finalOutputStatus": "complete_verified",
+  "scriptApprovalStatus": "approved",
+  "sceneProposalFilesCreated": true,
+  "sceneProposalCountPreparedInAgentContext": 34,
+  "liveInspection": {
+    "observedAt": "2026-09-10T10:00:58.075Z",
+    "connected": true,
+    "workspaceAvailable": true,
+    "model": "omni-1-1-flash",
+    "videoAspectRatios": [
+      "16:9",
+      "9:16"
+    ],
+    "selectableDurations": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "outputCounts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "projectUrl": "https://flow.google.com/project/2e45dc1f-bc2b-411e-926c-10aaaed91745"
+  },
+  "agentQualityReviewAuthorized": true,
+  "approvalFile": "approval.json",
+  "firstJob": {
+    "id": "14826cca-e4b1-47c6-ab4b-05b42872b2f8",
+    "status": "completed",
+    "downloadedFiles": [
+      "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-01\\shot-02-14826cca-e4b1-47c6-ab4b-05b42872b2f8.mp4"
+    ],
+    "fileVerification": {
+      "checkedAt": "2026-09-10T10:30:44.808Z",
+      "valid": true,
+      "files": [
+        {
+          "path": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-01\\shot-02-14826cca-e4b1-47c6-ab4b-05b42872b2f8.mp4",
+          "bytes": 5698743,
+          "durationSeconds": 10,
+          "width": 1280,
+          "height": 720,
+          "codec": "h264",
+          "frameRate": "24/1"
+        }
+      ]
+    }
+  },
+  "firstVideoReview": {
+    "reviewedAt": "2026-09-10T10:32:06.862Z",
+    "method": "Three sampled video frames plus verified final video/audio streams.",
+    "usable": true,
+    "note": "AI reconstruction; model inserted a dissolve despite the requested continuous shot. Usable as introductory construction imagery, not authentic archival footage."
+  },
+  "preview": {
+    "file": "first-scene-with-narration.mp4",
+    "seconds": 10,
+    "width": 1280,
+    "height": 720,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "verified": true
+  },
+  "lastProgress": {
+    "checkedAt": "2026-09-10T11:24:38.391Z",
+    "completedClips": 34,
+    "totalClips": 34
+  },
+  "finalOutput": {
+    "file": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\555m-롯데월드타워-완성본.mp4",
+    "bytes": 118320446,
+    "duration": 306.766667,
+    "videoDuration": 306.766667,
+    "audioDuration": 306.766,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "finalVerificationFile": "qa/final-film-verification.json"
+}

@@ -1,0 +1,40 @@
+{
+  "verifiedAt": "2026-09-10T11:24:38.389Z",
+  "finalFile": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\555m-롯데월드타워-완성본.mp4",
+  "assembly": {
+    "bytes": 118320446,
+    "duration": 306.766667,
+    "videoDuration": 306.766667,
+    "audioDuration": 306.766,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  },
+  "sourceClipCount": 34,
+  "sourceAllCompleted": true,
+  "totalOriginalVideoSeconds": 340,
+  "decodeExitCode": 0,
+  "fullBlackIntervalsAtLeastPointFourSeconds": 0,
+  "silenceThresholdDb": -50,
+  "longestDetectedPauseSeconds": 1.051625,
+  "peakDb": -4.552014,
+  "rmsDb": -23.844083,
+  "finalSampledFrames": [
+    450,
+    1260,
+    2490,
+    3780,
+    4650,
+    5760,
+    7140,
+    8640,
+    9202
+  ],
+  "sampledFramesVisuallyInspected": true,
+  "finalFrameTimeSeconds": 306.73333333333335,
+  "finalFrameIsBlueHourTower": true,
+  "qualityLimitations": "AI process illustrations, not archival footage or exact engineering layouts. Some model/cart/entrance details vary. Frame samples and automated audio checks do not constitute continuous human audiovisual review.",
+  "sourceQualityReport": "qa/production-quality-summary.json"
+}

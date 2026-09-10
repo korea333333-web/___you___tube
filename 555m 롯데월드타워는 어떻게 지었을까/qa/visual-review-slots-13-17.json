@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-09-10T11:03:40.433Z",
+  "scope": "Local visual QA of completed output slots 13 through 17",
+  "contactSheetManifests": [
+    "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\qa\\contact-sheets-ea351e10-a3eb-46ec-98e7-0d3f43da5d00.json",
+    "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\qa\\contact-sheets-8a97dc5d-a7cd-464c-8046-5ee54e6a4963.json"
+  ],
+  "method": {
+    "imagesActuallyViewed": 5,
+    "framesActuallyViewed": 25,
+    "tileResolution": {
+      "width": 384,
+      "height": 216
+    },
+    "fullMotionVerified": false,
+    "audioReviewed": false,
+    "engineeringReferenceComparisonPerformed": false,
+    "limitations": [
+      "0초·2.5초·5초·7.5초·9.9초의 표본 프레임을 실제로 열어 검토했다.",
+      "연속 재생이나 전체 프레임 검토가 아니므로 표본 사이의 짧은 변형·깜빡임·전환을 배제하지 않는다.",
+      "실제 시공 현장·장비 모델·구조 안전성·철근 배치·배합의 정밀 고증을 확인한 결과가 아니다."
+    ]
+  },
+  "summary": {
+    "conditionallyUsableAsIllustrationSlots": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "severeSampledFrameBreakageConfirmed": [],
+    "fullMotionReviewPrioritySlots": [
+      16
+    ],
+    "promptTextOrLogoDeviationSlots": [
+      17
+    ],
+    "automaticRegenerationRequested": false
+  },
+  "entries": [
+    {
+      "outputSlot": 13,
+      "sceneNumber": 13,
+      "jobId": "6d7c0a16-5483-41f1-976e-1566396de003",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-13\\shot-13-6d7c0a16-5483-41f1-976e-1566396de003.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-13\\contact-sheet-6d7c0a16-5483-41f1-976e-1566396de003.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 9.866666666666667,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "미완성 콘크리트 벽의 수직 배관과 반복되는 지지 브래킷을 따라 카메라 시선이 위로 이동한다.",
+        "다섯 표본 모두 공사 상태를 유지하며 타워 완공이나 다른 장면이 삽입되는 전환은 관찰되지 않았다.",
+        "배관과 벽의 연결은 표본 수준에서 대체로 이어져 보이며, 부재가 공중에 뜨거나 갑자기 사라지는 심한 오류는 확인되지 않았다."
+      ],
+      "editNotes": [
+        "재료를 위로 보내는 과정을 소개하는 일반 배관 재현 컷으로 사용 가능하다.",
+        "실제 500m 전 구간의 배관 경로나 현장의 특정 브래킷 사양을 보여 준다고 단정하지 않는다.",
+        "브래킷·배관 이음의 프레임 사이 형태 변화는 전체 재생 검토 범위에 남긴다."
+      ]
+    },
+    {
+      "outputSlot": 14,
+      "sceneNumber": 14,
+      "jobId": "9aa50953-995f-41b0-965d-bbce7739c5e1",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-14\\shot-14-9aa50953-995f-41b0-965d-bbce7739c5e1.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-14\\contact-sheet-9aa50953-995f-41b0-965d-bbce7739c5e1.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 10,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "펌프처럼 보이는 본체에서 플랜지·배관 연결부로 카메라가 가까워지고 수평 이동한다.",
+        "배관 연결이 유지된 상태이며 표본에서 큰 누수·폭발·공중 부양·삽입 전환은 보이지 않는다.",
+        "수치 계기나 장비 사양을 읽을 수 있는 화면은 아니므로 영상 자체가 압력이나 도달 높이를 증명하지 않는다.",
+        "오른쪽 아래에 작은 흰색 별 모양 표시가 보인다."
+      ],
+      "editNotes": [
+        "펌프와 배관으로 압송한다는 내레이션을 보조하는 대표 재현 컷으로 조건부 사용한다.",
+        "실제 롯데월드타워에 설치된 펌프 모델, 밸브 배치, 압력·배관 직경으로 소개하지 않는다.",
+        "압송 수치는 검증된 대본 정보로 전달하고 생성된 장비 화면에서 유추하지 않는다."
+      ]
+    },
+    {
+      "outputSlot": 15,
+      "sceneNumber": 15,
+      "jobId": "4d6493f2-a8d2-4054-af8b-4b19246f9d6b",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-15\\shot-15-4d6493f2-a8d2-4054-af8b-4b19246f9d6b.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-15\\contact-sheet-4d6493f2-a8d2-4054-af8b-4b19246f9d6b.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 7.766666666666667,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "슈트 안의 회색 시멘트질 재료와 굵은 골재가 화면 아래쪽을 향해 차오르거나 이동하는 표본이 보인다.",
+        "슈트의 양쪽 테두리는 유지되며 표본 사이에 굳은 구조체로 바뀌는 전환은 보이지 않는다.",
+        "골재와 반죽의 모양은 크게 달라지지만 재료 흐름을 표현한 컷으로 해석 가능하고, 표본만으로 물리적 유동의 정확성을 검증하지는 않았다."
+      ],
+      "editNotes": [
+        "계획된 시작 0초부터 약 7.7667초까지를 재료의 작업성을 설명하는 질감 컷으로 사용 가능하다.",
+        "실제 배합·골재 크기·시험강도·압송 가능성을 검증하는 시험 영상으로 소개하지 않는다.",
+        "배합이나 강도 수치를 화면에 임의 추가하지 않는다."
+      ]
+    },
+    {
+      "outputSlot": 16,
+      "sceneNumber": 16,
+      "jobId": "1e339d74-fcf1-4a87-8ec2-70ac2cf4659b",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-16\\shot-16-1e339d74-fcf1-4a87-8ec2-70ac2cf4659b.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-16\\contact-sheet-1e339d74-fcf1-4a87-8ec2-70ac2cf4659b.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 10,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "미완성 콘크리트 코어 주변의 거푸집 패널, 작업 발판, 강재 지지 구조가 보인다.",
+        "카메라가 위로 이동하며 여러 층의 발판과 패널을 차례로 드러내고 끝에서는 상부 철근이 보인다.",
+        "표본에서 완공 건물로의 변환이나 별도 영상의 명백한 삽입 컷은 확인되지 않았다.",
+        "촘촘하고 반복되는 발판·거푸집의 위치 인상이 표본 사이에 많이 달라지므로, 실제 연속 움직임에서 부재가 재배치되거나 변형되는지 추가 확인할 필요가 있다."
+      ],
+      "editNotes": [
+        "자동 상승 거푸집과 작업 공간의 개념을 설명하는 AI 재현으로 조건부 사용한다.",
+        "이 표본만으로 거푸집이 실제로 상승하는 기계 동작이나 앵커 구조의 안전성을 검증했다고 기록하지 않는다.",
+        "전체 재생 검토 시 카메라 상승에 따른 시점 변화와 실제 구조의 형태 변화가 구분되는지 우선 확인한다."
+      ],
+      "fullMotionReviewPriority": "higher_for_repetitive_structure_continuity"
+    },
+    {
+      "outputSlot": 17,
+      "sceneNumber": 17,
+      "jobId": "59e5624a-09d5-4955-a0ce-0887c412eebe",
+      "source": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-17\\shot-17-59e5624a-09d5-4955-a0ce-0887c412eebe.mp4",
+      "contactSheet": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\scene-17\\contact-sheet-59e5624a-09d5-4955-a0ce-0887c412eebe.jpg",
+      "durationSeconds": 10,
+      "sourceWidth": 1280,
+      "sourceHeight": 720,
+      "reviewedFrameTimesSeconds": [
+        0,
+        2.5,
+        5,
+        7.5,
+        9.9
+      ],
+      "plannedEditRangeSeconds": {
+        "start": 0,
+        "end": 7.6,
+        "source": "drafts/lotte-world-tower/edit-shot-weights.json"
+      },
+      "usability": "conditionally_usable_as_ai_illustration",
+      "severeShapeFailureObserved": false,
+      "insertedTransitionObservedInSampledFrames": false,
+      "fullMotionVerified": false,
+      "audioReviewed": false,
+      "observations": [
+        "거푸집 패널 상단을 따라 이동하며 안쪽 철근과 체결부를 보여 주는 다섯 표본이다.",
+        "패널과 철근의 큰 배치는 이어져 보이고, 철근 배치·타설·탈형을 연쇄 수행하는 삽입 장면은 표본에서 보이지 않는다.",
+        "패널 표면에 제조사 표시처럼 보이는 문자·무늬가 있다. 실제 특정 브랜드로 식별하지는 않았지만 프롬프트의 문자·로고 없음 조건과는 차이가 있다.",
+        "오른쪽 아래에 작은 흰색 별 모양 표시가 보인다."
+      ],
+      "editNotes": [
+        "계획된 시작 0초부터 7.6초까지를 모양을 잡는 틀과 철근의 관계를 보여 주는 재현 컷으로 조건부 사용한다.",
+        "패널의 문자 무늬를 장비 제조사·협력사에 대한 사실 정보로 인용하거나 확대해 강조하지 않는다.",
+        "인증된 철근 배근도나 실제 제품 설치 기준을 보여 주는 화면으로 소개하지 않는다."
+      ],
+      "promptDeviation": "Brand-like lettering/pattern on formwork panels despite no text/logo request; no specific company identified"
+    }
+  ],
+  "execution": {
+    "flowCalls": 0,
+    "queueModified": false,
+    "promptsModified": false,
+    "sourceVideosModified": false,
+    "contactSheetsCreated": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "reviewedAt": "2026-09-10T11:21:21.786Z",
+  "sourceClips": 34,
+  "completedSourceClips": 34,
+  "sourceMethod": "Contact sheets with five sampled frames per source; first source also inspected separately; additional ten samples for elevator door timing.",
+  "reports": [
+    "visual-review-slots-03-07.json",
+    "visual-review-slots-08-12.json",
+    "visual-review-slots-13-17.json",
+    "visual-review-slots-18-23.json",
+    "visual-review-slots-24-28.json",
+    "visual-review-slots-29-34.json"
+  ],
+  "firstSourceReport": "initial-visual-review.json",
+  "findings": {
+    "usableForIllustrativeFirstEdit": true,
+    "notArchivalFootage": true,
+    "notAnExactEngineeringReconstruction": true,
+    "continuityLimitations": [
+      "Scenes 8 and 21 use different analogy-model bases.",
+      "Scenes 27 and 28 differ in cart and elevator design.",
+      "Scenes 29 and 30 differ in model and table design."
+    ],
+    "generatedTextLimitations": [
+      "Some formwork panels contain letter-like texture.",
+      "Scene 33 entrance contains generated LOTTE WORLD-like signs; exact real placement was not verified."
+    ],
+    "selectedTrimChecks": [
+      "Scene 5 uses 0-4.566666667 seconds, excluding its later crown.",
+      "Scene 28 uses 0-5.333333333 seconds; closed doors observed at 5.0 and 5.3 seconds."
+    ]
+  },
+  "limits": [
+    "Sampled frames do not establish every intervening motion frame or mechanical design accuracy.",
+    "No human listening approval is claimed; full-film automated decode/audio measurements are recorded separately after rendering."
+  ]
+}

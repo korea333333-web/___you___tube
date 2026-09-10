@@ -1,0 +1,11 @@
+{
+  "approvedAt": "2026-09-10T09:45:27.032Z",
+  "userStatement": "지금 연결되어있는 구글 아이디는 영상을 쓸수있어 무료로 안해도 되는거야 그러니가 그냥 전체를 진행시켜 물어보지마",
+  "scope": "Current full script, 34 Omni 1.1 Flash clips, 10 seconds each, 16:9, one output per request, existing connected Google Flow credits; agent reviews first result and continues without intermediate user confirmations; female narration and final edited MP4.",
+  "maxGenerationRequests": 34,
+  "outputsPerRequest": 1,
+  "exactCreditCost": null,
+  "exactCostWasDisclosedAsUnavailable": true,
+  "upscale": "none",
+  "regenerateAmbiguousSubmission": false
+}

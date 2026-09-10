@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "output": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\555m-롯데월드타워-완성본.mp4",
+  "workDir": "C:\\Users\\kikuke\\OneDrive\\바탕 화면\\AAA\\youtube\\555m 롯데월드타워는 어떻게 지었을까\\assembly-final-001",
+  "sourceAudioDiscarded": true,
+  "narrationDuration": 306.63474,
+  "frameAlignedDuration": 306.76666666666665,
+  "verification": {
+    "bytes": 118320446,
+    "duration": 306.766667,
+    "videoDuration": 306.766667,
+    "audioDuration": 306.766,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1280,
+    "height": 720,
+    "fps": 30
+  }
+}
